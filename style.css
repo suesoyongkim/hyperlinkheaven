@@ -2,25 +2,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&display=swap");
 /* Korean glyphs only; Latin still uses the individual 1990s page fonts. */
 @font-face {font-family:"SOYONG HANGUL";src:local("AppleMyungjo"),local("Apple Myeongjo"),local("Batang"),local("Nanum Myeongjo");font-style:normal;font-weight:400;unicode-range:U+1100-11FF,U+3130-318F,U+AC00-D7AF,U+A960-A97F,U+D7B0-D7FF;}
-.hangul-serif{font-family:"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR","Batang",serif!important;font-weight:800!important;font-synthesis:weight;}
+.hangul-serif{font-family:"SOYONG HANGUL","Noto Serif KR","Batang",serif!important;font-weight:800!important;font-synthesis:weight;}
 
 /* THE WEB WAS DIFFERENT IN 1996. THIS SITE INTENTIONALLY LOOKS LIKE IT. */
 /* Original early-web tiled wallpaper. Put imagine_cloud_blue.jpg beside index.html. */
 html { background: #fff url("imagine_cloud_blue.jpg") repeat 0 0; background-size: 150px 150px; }
-body { margin: 0;   font: 13px "Times New Roman", Times, "MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif; }
+body { margin: 0;   font: 13px "Times New Roman", Times, "SOYONG HANGUL","Noto Serif KR",serif; }
 a:link {  }
 a:visited {  }
 a:hover {    }
 a:active {  }
 img { image-rendering: auto; }
-button, input, textarea, select { font-family: "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif; border-radius:0; }
+button, input, textarea, select { font-family: "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif; border-radius:0; }
 button { cursor:pointer; }
 small {font-size:11px}
 marquee {}
 .container {  margin: 9px 0 70px max(16px, calc((100vw - 1220px) / 2)); }
 .website { width:100%; border-collapse:collapse; table-layout:fixed;  }
 .website>tbody>tr>td { vertical-align:top; }
-.left { width:150px;    font: bold 12px Arial, "MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif; }
+.left { width:150px;    font: bold 12px Arial, "SOYONG HANGUL","Noto Serif KR",sans-serif; }
 .main { width:auto;  padding-left:12px; }
 .old-logo {    line-height:1; margin-top:0; }
 .left a {display:block; line-height:1.45; font-size:11px; font-weight:bold; text-decoration:underline; margin:3px 0;}
@@ -44,12 +44,12 @@ marquee {}
 .banner-fig {text-align:center;font:bold 11px Arial;}
 .banner-fig img {cursor:pointer; max-width:100%;}
 .banner-fig a {font:bold 11px Arial;display:block;}
-.neighborhood {font:bold 13px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-align:center;line-height:1.15;padding:6px;}
+.neighborhood {font:bold 13px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-align:center;line-height:1.15;padding:6px;}
 .neighborhood em {}
 .neighborhood .star {font-size:29px;display:block;}
 hr {   }
 h1,h2,h3,p {margin-top:0;}
-h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin-bottom:8px;text-align:center;}
+h2 {font:bold 15px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;margin-bottom:8px;text-align:center;}
 .center{text-align:center;}
 .red {color:#ff2222;}.yellow {color:#ffff00;}.green {color:#00ff00;}.cyan {color:#00ffff;}.gray {color:#444;}
 .section {scroll-margin-top:8px;  }
@@ -64,10 +64,10 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 .tinylink {font:bold 11px Arial;}
 .defaultbtn {font:bold 12px "Times New Roman";padding:3px 9px;}
 .defaultbtn:active {border-style:inset;}
-.counter {display:inline-block;border:3px inset #999;letter-spacing:3px;font:20px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:3px 7px;}
+.counter {display:inline-block;border:3px inset #999;letter-spacing:3px;font:20px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:3px 7px;}
 .badges img {width:88px;height:31px;margin:4px;vertical-align:middle;cursor:pointer;image-rendering:pixelated;}
 .badges img:hover {outline:2px solid #ff0000;}
-.window {position:fixed;z-index:30;top:25%;left:calc(50% - 170px);width:min(360px,94vw);background:#c0c0c0;color:#000;display:none;font:13px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.window {position:fixed;z-index:30;top:25%;left:calc(50% - 170px);width:min(360px,94vw);background:#c0c0c0;color:#000;display:none;font:13px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .window.visible {display:block;}
 .window-bar {padding:3px 5px;color:#fff;display:flex;justify-content:space-between;align-items:center;font:bold 12px Arial;cursor:move;touch-action:none;}
 .window-body {padding:14px;background:#c0c0c0;}
@@ -86,7 +86,7 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 @keyframes fall {to{transform:translateY(110vh) rotate(450deg);opacity:0;}}
 .pet {text-decoration:none;display:inline-block; cursor:help;}
 .warning {padding:5px;text-align:center;font:bold 12px Arial;margin:12px 0;}
-#asciiBox {white-space:pre;text-align:center;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.05;cursor:crosshair;}
+#asciiBox {white-space:pre;text-align:center;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.05;cursor:crosshair;}
 .footer {text-align:center;font-size:11px;margin:25px 0 15px;}
 #backtop {display:block;margin:13px auto;}
 #visitorNotes {border-top:1px dotted #777;padding-top:6px;font-size:11px;}
@@ -136,7 +136,7 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 .gif-asset img { max-width:100%; height:auto; image-rendering:auto; }
 .gif-asset:hover img { outline:1px dotted #ff2222; }
 .gif-asset:active img { transform:translate(2px,2px); }
-.gif-asset .gif-fallback {display:none; border:1px dashed #f00;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:5px 2px;word-break:break-word;max-width:125px;}
+.gif-asset .gif-fallback {display:none; border:1px dashed #f00;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:5px 2px;word-break:break-word;max-width:125px;}
 .gif-asset.missing img {display:none;}
 .gif-asset.missing .gif-fallback {display:block;}
 .gif-side {text-align:right; margin:9px 0;}
@@ -177,18 +177,18 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 
 /* MORE AUTHENTIC 1996 WEB GIFS: turtle club, junkyard, user GIF shelf. */
 .turtle-club{width:95%;text-align:center;}
-.turtle-club .club-title{display:block;color:#ff0;font:bold 13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;margin-bottom:4px;}
+.turtle-club .club-title{display:block;color:#ff0;font:bold 13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;margin-bottom:4px;}
 .turtle-club .club-entry{display:inline-block;vertical-align:bottom;text-align:center;width:128px;margin:3px 6px;}
 .turtle-club .club-entry img{max-width:122px;max-height:115px;object-fit:contain;}
-.turtle-club .club-entry small{display:block;color:#02ff02;font:bold 9px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;letter-spacing:.5px;}
+.turtle-club .club-entry small{display:block;color:#02ff02;font:bold 9px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;letter-spacing:.5px;}
 .car-junkyard{float:right;width:113px;margin:5px 4px 9px 9px;text-align:center;transform:rotate(-3deg);}
 .car-junkyard img{max-width:104px;max-height:86px;}
 .car-junkyard small{display:block;font:bold 9px Arial;color:red;}
-.gif-toybox{border-top-style:double;padding:8px;margin:12px 14px 8px;text-align:center;font:11px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.gif-toybox{border-top-style:double;padding:8px;margin:12px 14px 8px;text-align:center;font:11px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 .gif-toybox .toybox-title{text-decoration:underline;margin-bottom:6px;}
-.gif-toybox .gif-file-label{display:inline-block;cursor:pointer;border:3px outset #eee;padding:4px 9px;margin:4px 3px;font:bold 11px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.gif-toybox .gif-file-label{display:inline-block;cursor:pointer;border:3px outset #eee;padding:4px 9px;margin:4px 3px;font:bold 11px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .gif-toybox .gif-file-label:active{border-style:inset;}
-.gif-drop-hint{margin:6px auto;padding:8px 4px;max-width:340px;font:bold 11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.gif-drop-hint{margin:6px auto;padding:8px 4px;max-width:340px;font:bold 11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .gif-toybox.gif-dragover{outline:4px dashed #00ff00;}
 .gif-toybox.gif-dragover .gif-drop-hint{}
 .gif-toybox .gif-file-label input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;}
@@ -196,7 +196,7 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 .gif-extras .extra{display:block;max-width:140px;text-align:center;cursor:pointer;}
 .gif-extras img{max-width:120px;max-height:114px;object-fit:contain;}
 .gif-extras .extra small{display:block;color:#ff3939;font-size:10px;overflow-wrap:anywhere;}
-.gif-toybox .gif-note{font:10px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:1.5;margin:5px 0 0;}
+.gif-toybox .gif-note{font:10px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:1.5;margin:5px 0 0;}
 .wild.turtledude{top:818px;left:34px;width:115px;transform:rotate(7deg);}
 .wild.justmarried{top:1026px;left:0;width:136px;transform:rotate(-5deg);}
 .wild.turtledude img,.wild.justmarried img{max-height:115px;}
@@ -206,26 +206,26 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 /* TURTLE POND — gloriously silly, glitter-free prehistoric HTML aesthetic */
 .turtle-club {     position:relative; }
 .turtle-club a:link { color:#faff00; }
-.turtle-ticker {    font:bold 11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;  }
+.turtle-ticker {    font:bold 11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;  }
 .turtle-ticker marquee{}
 .turtle-header {    text-decoration:underline; margin:8px 0 3px; }
-.turtle-pond-label { color:#ffff00; font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; }
-.turtle-ascii {  font:bold 11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; line-height:1; margin:7px 0 3px; white-space:pre; }
-.turtle-motto {font:bold 10px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;color:#ffff00;margin:3px 0 6px;}
+.turtle-pond-label { color:#ffff00; font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace; }
+.turtle-ascii {  font:bold 11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace; line-height:1; margin:7px 0 3px; white-space:pre; }
+.turtle-motto {font:bold 10px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;color:#ffff00;margin:3px 0 6px;}
 .turtle-pond { border:4px groove #356c1e; padding:7px 2px 9px; }
 .turtle-pond .club-entry { background:transparent; }
 .turtle-pond .club-entry img { min-height:65px; object-fit:contain; }
-.turtle-pond .club-entry small {  font:bold 11px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif; }
+.turtle-pond .club-entry small {  font:bold 11px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif; }
 .turtle-pond .club-entry:hover img { outline:2px dashed #e2ff54; }
-.lily {  font:bold 15px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; }
+.lily {  font:bold 15px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace; }
 .turtle-button {background:#b5d8aa;border-color:#cef3a0; font-weight:bold; font-size:11px; margin:2px 1px;}
-.turtle-stat{display:inline-block;border:2px inset #739857;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-align:left;padding:5px 14px;line-height:1.6;}
+.turtle-stat{display:inline-block;border:2px inset #739857;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-align:left;padding:5px 14px;line-height:1.6;}
 .turtle-stat b{}
-.turtle-response{min-height:16px;margin:8px 1px 2px;color:#ffff00;font:italic 12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.turtle-response{min-height:16px;margin:8px 1px 2px;color:#ffff00;font:italic 12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 .turtle-bottom{height:25px;position:relative;overflow:hidden;border-bottom:1px dotted #568842;margin-top:8px;}
 .turtle-crawler{position:absolute;left:-6%;top:0;white-space:nowrap;animation:turtle-crawl 36s linear infinite;}
 @keyframes turtle-crawl {to{left:100%;}}
-.turtle-stamp {margin:7px 0 2px;color:#abff40;font:bold 10px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:1.4;}
+.turtle-stamp {margin:7px 0 2px;color:#abff40;font:bold 10px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:1.4;}
 .turtle-stamp small {color:#c1dd9b;}
 @media(max-width:480px){.turtle-header{font-size:15px}.turtle-ascii{font-size:9px}.turtle-pond .club-entry{width:88px}}
 @media(prefers-reduced-motion:reduce){.turtle-crawler{animation:none;left:50%}}
@@ -233,10 +233,10 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 /* ADDED IN THE SLOWNET 1996 UPDATE — DELIBERATELY MESSY OLD WEB GIFS */
 .gif-side-trinket { margin:12px 0 17px;text-align:right; }
 .gif-side-trinket img {max-width:90px;max-height:94px;}
-.gif-side-trinket .caption {display:block;font:bold 9px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.gif-side-trinket .caption {display:block;font:bold 9px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .gif-clockrack {border:1px dotted #781212;margin:9px 0;padding:5px 1px;text-align:right;}
 .gif-clockrack img {max-width:71px;max-height:78px;}
-.gif-clockrack small {display:block;font:bold 9px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.gif-clockrack small {display:block;font:bold 9px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .old-party{padding:5px 1px;text-align:center;margin:9px 0 13px;}
 .old-party img{max-width:118px;max-height:101px;object-fit:contain;vertical-align:middle;margin:3px 5px;}
 .old-party .gif-asset {vertical-align:middle;}
@@ -244,7 +244,7 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 .music-gif-row{margin:11px auto 4px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px 18px;text-align:center;}
 .music-gif-row .gif-asset img{max-width:110px;max-height:112px;object-fit:contain;}
 .music-gif-row a{display:inline-block;cursor:pointer;}
-.music-gif-row small{display:block;color:#dd2222;font:bold 9px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.music-gif-row small{display:block;color:#dd2222;font:bold 9px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .small-music-gif img{max-width:143px;max-height:90px;}
 .mini-scrap {float:right; margin:0 4px 4px 9px;max-width:100px;text-align:center;}
 .mini-scrap img {max-width:100px;max-height:85px;}
@@ -252,8 +252,8 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 .dead-link-cemetery{padding:7px;margin:15px 7px 12px;text-align:center;}
 .dead-link-cemetery .grave-gifs{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-around;gap:3px;}
 .dead-link-cemetery img{max-width:95px;max-height:110px;}
-.dead-link-cemetery b{font:bold 16px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:1px;}
-.dead-link-cemetery small{display:block;font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.dead-link-cemetery b{font:bold 16px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:1px;}
+.dead-link-cemetery small{display:block;font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .wild.clockearthnew {top:1247px;left:35px;width:105px;transform:rotate(4deg)}
 .wild.partyclown {top:1469px;left:0;width:95px;transform:rotate(-6deg)}
 .wild.tower {top:1710px;left:27px;width:98px;transform:rotate(3deg)}
@@ -263,31 +263,31 @@ h2 {font:bold 15px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR"
 /* SLOWNET: FEED A TURTLE TO RECEIVE A SLOW LETTER */
 .turtle-club{margin-top:22px; }
 .turtle-header{}
-.slow-concept{margin:5px auto 8px;padding:5px;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.4;max-width:95%;}
+.slow-concept{margin:5px auto 8px;padding:5px;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.4;max-width:95%;}
 .turtle-ritual{padding:6px 4px;display:flex;align-items:stretch;justify-content:center;gap:5px;}
 .turtle-pantry{width:25%;min-width:95px;padding:7px 3px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:space-around;}
 .turtle-pantry .turtle-lettuce{font-size:41px;line-height:1.1;cursor:grab;user-select:none;touch-action:none;}
 .turtle-lettuce:active {cursor:grabbing;}
-.turtle-pantry small{font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.3;}
+.turtle-pantry small{font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.3;}
 .turtle-pantry button {font:bold 10px Arial;margin-top:4px;padding:3px 2px;width:95%;}
 .turtle-dropzone{position:relative;flex:1;min-height:185px;padding:8px 2px;}
 .turtle-dropzone:hover,.turtle-dropzone.dragover {border-color:#ffff00;outline:2px dashed #e4fd2c;}
 .turtle-dropzone .turtle-pal{display:inline-block;max-width:108px;vertical-align:middle;text-decoration:none;}
 .turtle-dropzone .turtle-pal img{max-width:100px;}
-.turtle-dropzone .turtle-pal small{display:block;color:#a9fa4b;font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.turtle-dropzone .turtle-pal small{display:block;color:#a9fa4b;font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .turtle-dropzone .drop-hint{color:#fff7a1;font:bold 10px Arial;}
 .turtle-pond-index{margin:9px auto 6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-evenly;}
 .turtle-pond-index .gif-asset img{max-width:112px;max-height:96px;}
-.turtle-pond-index small {font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#aaff5e;}
-.turtle-kiosk{padding:6px 8px;margin:9px auto 5px;max-width:420px;font:11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.turtle-pond-index small {font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#aaff5e;}
+.turtle-kiosk{padding:6px 8px;margin:9px auto 5px;max-width:420px;font:11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .turtle-kiosk b{}
 .turtle-meter{margin:6px auto 3px;border:2px inset #6ca45a;height:17px;max-width:295px;text-align:left;}
 #turtleLoadBar{height:100%;width:0%;transition:none;image-rendering:pixelated;}
 .turtle-mail{display:none;border:3px ridge #d3b66e;max-width:376px;padding:8px 10px;text-align:left;margin:9px auto; transform:rotate(-1deg);}
 .turtle-mail.visible {display:block;}
-.turtle-mail .mail-head{font:bold 13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:1px dashed #888;text-align:center;}
-.turtle-mail .mail-body{font:italic 13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;min-height:28px;margin:8px 2px;}
-.turtle-mail .mail-stamp{text-align:right;font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#4c560e;}
+.turtle-mail .mail-head{font:bold 13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:1px dashed #888;text-align:center;}
+.turtle-mail .mail-body{font:italic 13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;min-height:28px;margin:8px 2px;}
+.turtle-mail .mail-stamp{text-align:right;font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#4c560e;}
 #turtleGarden{letter-spacing:6px;min-height:18px;}
 #turtleResponse{font-size:12px;}
 @media(max-width:480px){.turtle-ritual{gap:2px;padding:3px}.turtle-pantry{min-width:78px;width:29%}.turtle-pantry .turtle-lettuce{font-size:29px}.turtle-dropzone .turtle-pal{margin:2px;max-width:65px}.turtle-dropzone .turtle-pal img{max-width:65px}.turtle-dropzone{min-height:170px}.gif-side-trinket img{max-width:66px}.old-party img{max-width:90px}}
@@ -332,7 +332,7 @@ marquee {}
 .sponsors .green {}
 .sponsors span {}
 .sponsors .sponsor-logo {}
-.tiny-news {  font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.tiny-news {  font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .tiny-news marquee {line-height:18px;}
 .headwrap {background:#d7edff;border:3px inset #b1c8d0;box-sizing:border-box;height:181px;margin-top:8px;}
 .headwrap img {max-height:100%;}
@@ -343,7 +343,7 @@ marquee {}
 .neighborhood .star {color:#d89800;text-shadow:1px 1px #fff;}
 hr {  }
 h2 {color:#a90000;}
-.section-title {text-align:center;font:bold 20px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;margin:0 0 5px;text-shadow:1px 1px #fff;}
+.section-title {text-align:center;font:bold 20px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;margin:0 0 5px;text-shadow:1px 1px #fff;}
 .section-title::before,.section-title::after {content:" * ";color:#c00000;font-size:14px;vertical-align:middle;}
 .section-sub {color:#303030;}
 .section {margin-top:19px; margin-bottom:29px;}
@@ -357,7 +357,7 @@ h2 {color:#a90000;}
 .thumb-txt[style*="#6a0911"]{background:#ffe7d5!important;}
 .thumb-txt[style*="#273228"]{background:#e9f3cf!important;}
 .thumb-txt[style*="#17122f"]{background:#e2efff!important;}
-.defaultbtn, .turtle-button {background:#c0c0c0;color:#000;border:3px outset #eaeaea;font:bold 12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;padding:3px 8px;box-shadow:1px 1px 0 #555;}
+.defaultbtn, .turtle-button {background:#c0c0c0;color:#000;border:3px outset #eaeaea;font:bold 12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;padding:3px 8px;box-shadow:1px 1px 0 #555;}
 .defaultbtn:hover,.turtle-button:hover {background:#ffffaa;color:#000;}
 .defaultbtn:active,.turtle-button:active{border-style:inset;box-shadow:none;}
 .counter {background:#080808;color:#00ff00;border-color:#aaa;box-shadow:2px 2px 0 #8a8a8a;}
@@ -372,7 +372,7 @@ h2 {color:#a90000;}
 .gif-wilderness .wild small {padding:1px;}
 .gif-horizontal-rule {border-color:#1b64a5;}
 .gif-toybox {}
-.gif-toybox .toybox-title {text-shadow:1px 1px white;font:bold 17px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.gif-toybox .toybox-title {text-shadow:1px 1px white;font:bold 17px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;}
 .gif-toybox .gif-file-label {background:#c0c0c0;color:#000;border-color:#fff;}
 .gif-drop-hint {}
 .gif-toybox.gif-dragover {background:#e1ffe8;outline-color:#15812a;}
@@ -380,7 +380,7 @@ h2 {color:#a90000;}
 .gif-toybox .gif-note {}
 .gif-extras .extra small,.music-gif-row small,.mini-scrap small {color:#aa0000;}
 .old-party {border-top:3px double #e41b1b;border-bottom:3px double #e41b1b;}
-.old-party .party-note {font:bold italic 14px Times New Roman,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.old-party .party-note {font:bold italic 14px Times New Roman,"SOYONG HANGUL","Noto Serif KR",serif;}
 .gif-clockrack {border-color:#1860b6; background:#e9f8ff;}
 .gif-clockrack small {color:#b90000;}
 .gif-side-trinket .caption{color:#a60000;}
@@ -395,7 +395,7 @@ h2 {color:#a90000;}
 .turtle-club {}
 .turtle-ticker {}
 .turtle-ticker marquee {}
-.turtle-header {color:#00601d;text-shadow:1px 1px #fff;font:bold 21px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.turtle-header {color:#00601d;text-shadow:1px 1px #fff;font:bold 21px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 .turtle-pond-label,.turtle-motto {color:#326b00;}
 .turtle-ascii {color:#07792c;}
 .turtle-pond {border-color:#338d2b;background:repeating-linear-gradient(0deg,#ddffc9 0px,#ddffc9 8px,#bbf3aa 9px,#ceffc2 15px);}
@@ -410,7 +410,7 @@ h2 {color:#a90000;}
 .turtle-pantry {background:#fffad3;border:3px inset #9fb467;}
 .turtle-pantry .turtle-lettuce { box-sizing:border-box;display:flex;align-items:center;justify-content:center;}
 .turtle-lettuce img {width:60px;height:60px;display:block;object-fit:contain;image-rendering:pixelated;pointer-events:none;user-select:none;}
-.turtle-lettuce .leaf-fallback {display:none;color:#008c23;font:bold 11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;border:2px dotted #009b39;background:#e6ffe9;padding:13px 3px;}
+.turtle-lettuce .leaf-fallback {display:none;color:#008c23;font:bold 11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;border:2px dotted #009b39;background:#e6ffe9;padding:13px 3px;}
 .turtle-pantry small {color:#156422;}
 .turtle-dropzone {border:3px dashed #018727;background:repeating-linear-gradient(0deg,#d7ffcd 0px,#d7ffcd 13px,#aaf0b9 14px,#aaf0b9 20px);}
 .turtle-dropzone .turtle-pal small,.turtle-dropzone .drop-hint,.turtle-pond-index small {color:#056626;}
@@ -420,44 +420,44 @@ h2 {color:#a90000;}
 #turtleLoadBar {background:repeating-linear-gradient(90deg,#39ff00 0,#39ff00 11px,#004c00 11px,#004c00 14px);}
 #turtleGarden {color:#046b23;}
 /* A few actual browser-era elements, not modern cards. */
-.web-status {padding:3px 7px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:3px 8px;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.web-status {padding:3px 7px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:3px 8px;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .web-status .status-online {font-weight:bold;}
 .web-status .status-online::before {content:"● ";}
 .webmaster-note {}
 .webmaster-note strong {}
-.webmaster-note .badge-small {display:inline-block;margin:0 5px 2px 0;font:bold 10px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.webmaster-note .badge-small {display:inline-block;margin:0 5px 2px 0;font:bold 10px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .retro-buttons {display:flex;justify-content:center;flex-wrap:wrap;gap:5px;margin:8px 0 2px;}
-.retro-buttons span {width:88px;height:31px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;font:bold 10px/1 Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;letter-spacing:-.1px;}
+.retro-buttons span {width:88px;height:31px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;font:bold 10px/1 Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;letter-spacing:-.1px;}
 .retro-buttons span:nth-child(1){background:#000080;color:#fff;}
 .retro-buttons span:nth-child(2){background:#ffed00;color:#be0000;}
 .retro-buttons span:nth-child(3){background:#003e27;color:#aaff77;}
 .web-ring {padding:5px;text-align:center;margin:14px 7px 2px;}
-.web-ring b {color:#c00000;font:bold 14px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.web-ring b {color:#c00000;font:bold 14px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;}
 .web-ring small {color:#0c376a;display:block;margin:4px 0;}
-.web-ring a {font:bold 11px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.web-ring a {font:bold 11px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 @media (max-width:795px){.container{width:min(100%,860px);max-width:100%;}.left{padding-left:3px}.main{padding-left:7px;padding-right:6px}.headwrap{height:auto;}.headwrap img{max-height:none;}}
 @media (max-width:480px){.container{width:100%;max-width:100%;}.website{border-width:2px;box-shadow:none}.left{padding:4px 3px 5px 3px;}.main{padding:5px 3px 3px 5px}.section-title{font-size:15px}.section-title::before,.section-title::after{font-size:10px}.sponsors{transform:none}.web-status{font-size:8px}.retro-buttons span{width:78px;height:29px;font-size:9px}.turtle-lettuce img{width:46px;height:46px}.turtle-pantry .turtle-lettuce{min-width:58px;min-height:62px;padding:3px}}
 
 
 /* TWO ORIGINAL OLD-WEB GIF NEIGHBORHOODS — deliberately different designs. */
 .zone-section {scroll-margin-top:12px; margin-top:27px; margin-bottom:28px; clear:both;}
-.zone-hr{text-align:center;color:#0059ab;font:bold 13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:7px 0 9px;letter-spacing:1px;}
+.zone-hr{text-align:center;color:#0059ab;font:bold 13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:7px 0 9px;letter-spacing:1px;}
 .zone-preview{font:inherit;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;max-width:100%;padding:5px 3px;box-sizing:border-box;border-radius:0;cursor:pointer;background:#fff;border:3px outset #eee;box-shadow:1px 2px 0 #777;min-width:0;}
 .zone-preview:active{border-style:inset;box-shadow:none;transform:translate(1px,1px);}
 .zone-preview .zone-gif{display:flex;align-items:center;justify-content:center;max-width:100%;}
 .zone-preview .zone-gif img{display:block;max-width:100%;object-fit:contain;image-rendering:auto;}
 .zone-preview .zone-gif.missing img{display:none!important;}
-.zone-preview .zone-gif.missing .gif-fallback{display:block!important;max-width:100%;box-sizing:border-box;border:1px dashed #c00;font:bold 9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:6px 3px;}
-.zone-filename{display:block;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#003e8c;text-decoration:underline;overflow-wrap:anywhere;text-align:center;line-height:1.2;}
+.zone-preview .zone-gif.missing .gif-fallback{display:block!important;max-width:100%;box-sizing:border-box;border:1px dashed #c00;font:bold 9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:6px 3px;}
+.zone-filename{display:block;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#003e8c;text-decoration:underline;overflow-wrap:anywhere;text-align:center;line-height:1.2;}
 .zone-preview:hover{}
 /* Lava lamps: bright diner-style header, dark inset display, not lavender. */
-.lava-zone{padding:7px 8px 10px;text-align:center;font-family:"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-.lava-titlebar{color:#fff700;background:#002b6f;border:3px ridge #4b93bb;padding:5px 3px;font:bold 13px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.lava-zone{padding:7px 8px 10px;text-align:center;font-family:"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+.lava-titlebar{color:#fff700;background:#002b6f;border:3px ridge #4b93bb;padding:5px 3px;font:bold 13px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .lava-titlebar span{color:#ff5727;}
-.lava-subtitle{color:#a40000;font:bold 10px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;padding:9px 3px 3px;letter-spacing:.5px;}
-.lava-headline{color:#e13209;text-shadow:1px 1px #fff;font:bold 24px Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:1px auto 7px;text-decoration:underline;}
-.lava-intro{font:11px/1.45 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#092c61;margin:0 auto 9px;}
-.lava-console{text-align:left;border:3px inset #888;margin:0 5px;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:4px 8px;}
+.lava-subtitle{color:#a40000;font:bold 10px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;padding:9px 3px 3px;letter-spacing:.5px;}
+.lava-headline{color:#e13209;text-shadow:1px 1px #fff;font:bold 24px Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:1px auto 7px;text-decoration:underline;}
+.lava-intro{font:11px/1.45 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#092c61;margin:0 auto 9px;}
+.lava-console{text-align:left;border:3px inset #888;margin:0 5px;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:4px 8px;}
 .lava-console span{}
 .lava-shelf{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;padding:15px 8px 12px;background:#002e50;border:5px inset #487b91;margin:0 5px;align-items:end;}
 .lava-unit{min-width:0;display:flex;justify-content:center;align-items:end;}
@@ -472,28 +472,28 @@ h2 {color:#a90000;}
 .lava-shelf.lava-dark .zone-gif.missing .gif-fallback{}
 .lava-controls{margin:10px auto 7px;display:flex;flex-wrap:wrap;gap:7px;justify-content:center;}
 .lava-controls button{font-size:11px;}
-.lava-footer{font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#b50c0c;display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:space-between;}
+.lava-footer{font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#b50c0c;display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:space-between;}
 /* Korea zone: red / blue / white / off-yellow, like an old local portal. */
 .korea-zone{padding:7px 9px 9px;text-align:center;color:#111;}
-.korea-upper{color:#fff;border:3px outset #5aa4da;padding:4px 3px;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.korea-upper{color:#fff;border:3px outset #5aa4da;padding:4px 3px;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .korea-upper span{color:#fff52a;}
-.korea-headline{margin:9px 0 1px;color:#db1222;text-shadow:1px 1px #ffd340;font:bold 25px Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;}
-.korea-hangul{color:#003a91;font:bold 15px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:4px auto 10px;}
+.korea-headline{margin:9px 0 1px;color:#db1222;text-shadow:1px 1px #ffd340;font:bold 25px Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;}
+.korea-hangul{color:#003a91;font:bold 15px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:4px auto 10px;}
 .korea-marquee{border-block:3px double #dc1919;height:22px;overflow:hidden;margin-bottom:10px;}
-.korea-marquee marquee{font:bold 12px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:18px;}
-.korea-intro{font:12px/1.45 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#003e85;margin:8px auto 11px;}
+.korea-marquee marquee{font:bold 12px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;line-height:18px;}
+.korea-intro{font:12px/1.45 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#003e85;margin:8px auto 11px;}
 .korea-intro b{color:#b60000;}
 .korea-intro small{font-size:10px;}
 .korea-banner-board{border:3px ridge #4f96d1;background:#eff8ff;padding:7px 5px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:center;margin-bottom:15px;}
 .korea-header-item{width:100%;height:117px;padding:6px 3px;justify-content:space-between;}
 .korea-header-item .zone-gif{height:83px;width:100%;}
 .korea-header-item img{width:auto;max-height:79px;}
-.korea-archive-label{font:bold 13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#c50000;margin:10px 0 6px;}
+.korea-archive-label{font:bold 13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#c50000;margin:10px 0 6px;}
 .korea-archive-board{background:#fffdeb;border:3px inset #e6c98c;padding:9px 5px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:stretch;}
 .korea-archive-item{width:100%;min-height:99px;justify-content:space-between;}
 .korea-archive-item .zone-gif{height:60px;width:100%;}
 .korea-archive-item img{width:auto;max-height:58px;}
-.korea-bottom{margin-top:11px;padding:5px 3px;display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;color:#084289;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.korea-bottom{margin-top:11px;padding:5px 3px;display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;color:#084289;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .korea-bottom span:first-child{color:#c51718;}
 @media(max-width:600px){
   .lava-shelf{grid-template-columns:repeat(3,minmax(0,1fr));padding:10px 6px;}
@@ -523,10 +523,10 @@ body {}
 .website{}
 .left{padding:7px 9px 10px 7px;text-align:left;}
 .main{padding:8px 13px 6px;}
-.old-logo{font:bold 17px/1.07 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:2px double #999;background:transparent;padding:7px 2px 9px;text-align:left;letter-spacing:-.5px;}
-.old-logo small{font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:1px;}
-.side-at{font:bold 35px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-align:center;color:#686b6a;line-height:1.2;margin:8px 0;}
-.left .side-note{font:11px/1.45 Times New Roman,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-align:left;}
+.old-logo{font:bold 17px/1.07 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:2px double #999;background:transparent;padding:7px 2px 9px;text-align:left;letter-spacing:-.5px;}
+.old-logo small{font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:1px;}
+.side-at{font:bold 35px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;text-align:center;color:#686b6a;line-height:1.2;margin:8px 0;}
+.left .side-note{font:11px/1.45 Times New Roman,"SOYONG HANGUL","Noto Serif KR",serif;text-align:left;}
 .left .navgroup{margin:11px 0;padding:7px 1px;}
 .left .navgroup a{display:block;text-align:left;padding:0 1px;text-decoration:underline;}
 .left .navgroup a:before{content:"› ";color:#606969;}
@@ -534,38 +534,38 @@ body {}
 a:link,a:visited{color:#164c8a;}
 a:hover{}
 marquee{}
-.sponsors{background:#f9f8f3;border:3px ridge #b2b5af;color:#303e44;font:bold 15px/1.15 Times New Roman,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:.1px;text-shadow:none;box-shadow:none;transform:none;margin:2px auto 7px;}
-.sponsors .green{color:#343d3a;text-shadow:none;font:bold 16px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.sponsors{background:#f9f8f3;border:3px ridge #b2b5af;color:#303e44;font:bold 15px/1.15 Times New Roman,"SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:.1px;text-shadow:none;box-shadow:none;transform:none;margin:2px auto 7px;}
+.sponsors .green{color:#343d3a;text-shadow:none;font:bold 16px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;}
 .sponsors span{color:#454b47;}
-.sponsors .sponsor-logo{color:#283c44;background:#e9eae5;border-left:2px groove #a7aaa3;font:9px Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.sponsors .sponsor-logo{color:#283c44;background:#e9eae5;border-left:2px groove #a7aaa3;font:9px Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .tiny-news{background:#e8ece8;border-top:1px solid #999;border-bottom:1px solid #aaa;color:#314450;height:20px;}
-.tiny-news marquee{color:#37484c;font:10px/18px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.tiny-news marquee{color:#37484c;font:10px/18px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .web-status{background:#f3f3ee;border:2px inset #c7cbca;color:#333;margin:8px 0;}
 .web-status .status-online{color:#3f6c52;}
 .home-directory{border-collapse:collapse;width:100%;margin:12px 0 14px;background:#fffdf7;border:2px solid #9da4a6;}
 .home-directory td{vertical-align:top;padding:15px 16px;}
 .home-directory .directory-title{width:58%;border-right:1px dotted #aaa;}
-.directory-kicker{font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#616d6d;display:block;margin-bottom:8px;}
-.directory-title strong{display:block;font:bold clamp(26px,4vw,37px)/1.02 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#20313b;letter-spacing:-1px;}
+.directory-kicker{font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#616d6d;display:block;margin-bottom:8px;}
+.directory-title strong{display:block;font:bold clamp(26px,4vw,37px)/1.02 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#20313b;letter-spacing:-1px;}
 .directory-period{color:#9f4939;}
-.directory-title small{display:block;margin-top:9px;font:italic 11px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#686969;}
-.directory-index{font:11px/1.65 Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#46535c;}
+.directory-title small{display:block;margin-top:9px;font:italic 11px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#686969;}
+.directory-index{font:11px/1.65 Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#46535c;}
 .directory-index b{display:block;padding:3px 0;border-bottom:1px solid #bfc7c8;color:#273d4a;margin-bottom:5px;}
 .directory-index a{display:block;color:#164c8a;text-decoration:underline;}
 .directory-index small{display:block;color:#676d70;margin-top:6px;}
 .internet-scroll{height:20px;background:#e7eceb;border-top:1px solid #999;border-bottom:1px solid #999;margin:12px 4px 9px;}
-.internet-scroll marquee{color:#3c565b;font:10px/18px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.webmaster-note{border:2px dotted #aab4b4;background:#fdfcf6;color:#303c40;box-shadow:none;margin:12px 3px 11px;font:12px/1.45 Times New Roman,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;padding:9px 10px;}
+.internet-scroll marquee{color:#3c565b;font:10px/18px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
+.webmaster-note{border:2px dotted #aab4b4;background:#fdfcf6;color:#303c40;box-shadow:none;margin:12px 3px 11px;font:12px/1.45 Times New Roman,"SOYONG HANGUL","Noto Serif KR",serif;padding:9px 10px;}
 .webmaster-note strong{color:#27343c;}
 .webmaster-note .badge-small{background:#e6e8e5;color:#304a57;border:1px solid #aaa;padding:2px 5px;}
 .retro-buttons{margin-top:8px;}
 .retro-buttons span{background:#e9eae5!important;color:#43505a!important;border:2px outset #fff!important;box-shadow:none!important;}
 hr{border:0;border-top:1px dashed #b7bbb8;border-bottom:0;height:0;margin:13px 0;}
 .section:not(.zone-section){border-top:0;margin-top:22px;padding-top:0;background:transparent;}
-.section:not(.zone-section) .section-title{display:block;text-align:left;background:none;border:0;box-shadow:none;color:#273a43;font:bold 19px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-shadow:none;text-decoration:none;transform:none;padding:0;margin:10px 0 10px;}
+.section:not(.zone-section) .section-title{display:block;text-align:left;background:none;border:0;box-shadow:none;color:#273a43;font:bold 19px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;text-shadow:none;text-decoration:none;transform:none;padding:0;margin:10px 0 10px;}
 .section:not(.zone-section) .section-title:before{content:"★ ";font-size:13px;color:#8a4337;}
 .section:not(.zone-section) .section-title:after{content:"";}
-.section:not(.zone-section) .section-sub{background:transparent;color:#5a6263;border:0;font:11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:0;text-align:left;}
+.section:not(.zone-section) .section-sub{background:transparent;color:#5a6263;border:0;font:11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;padding:0;text-align:left;}
 .section-title{color:#283e4a;}
 #about>hr,#playground>hr,#guestbook>hr,#links>hr{border:0;height:0;border-top:2px double #a3adaf;background:transparent;}
 .sub-table{border:2px ridge #a7b0b3;background:#faf9f3;}
@@ -583,12 +583,12 @@ hr{border:0;border-top:1px dashed #b7bbb8;border-bottom:0;height:0;margin:13px 0
 .old-party{background:#f4f2e8;border-block:1px dashed #aaa;}
 .old-party .party-note{color:#4d5659;}
 #guestbook{}
-#guestbook .defaultbtn{border:3px outset white;box-shadow:none;font:bold 12px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+#guestbook .defaultbtn{border:3px outset white;box-shadow:none;font:bold 12px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 #guestbook #visitorNotes{}
 #links{background:transparent;}
 .click-around{background:#f1f3ee;border:2px ridge #b0b8b7;margin:14px 4px 8px;padding:8px;}
-.click-around b{color:#3d4c52;font:11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.click-around a{background:#fffdf7!important;color:#164c8a!important;border:2px outset white;padding:4px 6px;font:11px Times New Roman,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.click-around b{color:#3d4c52;font:11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
+.click-around a{background:#fffdf7!important;color:#164c8a!important;border:2px outset white;padding:4px 6px;font:11px Times New Roman,"SOYONG HANGUL","Noto Serif KR",serif;}
 .click-around a:hover{background:#e7e9e5!important;color:#7b3931!important;}
 .web-ring{border:2px double #a2a9a9;box-shadow:none;}
 .footer{background:transparent;color:#495051;border:0;border-top:2px double #a8afaf;padding:12px 5px;}
@@ -596,36 +596,36 @@ hr{border:0;border-top:1px dashed #b7bbb8;border-bottom:0;height:0;margin:13px 0
 .side-awards,.cyber-ribbon,.cyber-ribbon-under,.cyber-sparkline,.internet-billboard,.oldweb-hint{display:none!important;}
 /* NEW ROOM 01: SUE, an old-school name tag / personal readme. */
 .story-zone,.friends-zone{scroll-margin-top:10px;}
-.story-rule{text-align:center;color:#9b9f9c;font:11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;overflow:hidden;white-space:nowrap;margin:6px 0;}
+.story-rule{text-align:center;color:#9b9f9c;font:11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;overflow:hidden;white-space:nowrap;margin:6px 0;}
 .story-head{display:flex;align-items:center;gap:8px;justify-content:space-between;padding:5px 0 6px;margin-bottom:10px;}
-.story-head span{color:#656a69;font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.story-head b{font:bold 19px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-align:center;}
+.story-head span{color:#656a69;font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
+.story-head b{font:bold 19px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;text-align:center;}
 .sue-table{width:100%;border-collapse:collapse;border:2px ridge #a9b2b0;background:#f9f8f3;}
 .sue-table td{padding:15px 14px;vertical-align:middle;}
 .sue-name-cell{width:35%;border-right:1px dotted #a1aaa8;text-align:center;}
-.sue-story-cell{font:13px/1.55 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#303a3b;text-align:left;}
+.sue-story-cell{font:13px/1.55 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#303a3b;text-align:left;}
 .sue-story-cell p{margin:8px 0;}
-.file-label{font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;background:#e5e8e6;color:#3b565e;padding:3px 5px;}
-.sue-alias-line{font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#48555d;border-top:1px dashed #9ca8a6;margin:12px 0;padding-top:9px;}
+.file-label{font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;background:#e5e8e6;color:#3b565e;padding:3px 5px;}
+.sue-alias-line{font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#48555d;border-top:1px dashed #9ca8a6;margin:12px 0;padding-top:9px;}
 .sue-alias-line span{color:#944c3e;font-weight:bold;margin-left:6px;}
-.story-foot{text-align:center;font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#5e6d68;margin-top:8px;}
+.story-foot{text-align:center;font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#5e6d68;margin-top:8px;}
 /* NEW ROOM 02: friend link directory, visibly unlaunched. */
-.friends-intro{color:#343e40;font:12px/1.5 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:12px 0 13px;}
-.friends-directory{width:100%;border:3px ridge #b4babb;border-collapse:separate;border-spacing:0;background:#fdfdf8;font:11px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.friends-intro{color:#343e40;font:12px/1.5 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;margin:12px 0 13px;}
+.friends-directory{width:100%;border:3px ridge #b4babb;border-collapse:separate;border-spacing:0;background:#fdfdf8;font:11px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;}
 .friends-directory th{background:#e7eae7;color:#394c53;border-bottom:2px ridge #b5b9b9;padding:7px 5px;text-align:left;}
 .friends-directory td{padding:9px 6px;border-bottom:1px dotted #c1c6c4;color:#46535a;}
 .friends-directory tr:last-child td{border-bottom:0;}
 .friends-directory td:nth-child(2){width:39%;}
-.friend-link{display:inline-block;padding:3px 5px;color:#164c8a;background:#f4f5f1;border:2px outset #fff;font:11px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;text-align:left;}
+.friend-link{display:inline-block;padding:3px 5px;color:#164c8a;background:#f4f5f1;border:2px outset #fff;font:11px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline;text-align:left;}
 .friend-link:hover{background:#ebece7;}
 .friend-link:active{border-style:inset;}
 .offline-dot{display:inline-block;width:7px;height:7px;background:#848985;border:1px solid #fff;box-shadow:0 0 0 1px #a8abaa;}
-.friends-bottom{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border:1px solid #babfbb;background:#eeefe9;padding:6px;font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#4b5b60;margin-top:8px;}
+.friends-bottom{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border:1px solid #babfbb;background:#eeefe9;padding:6px;font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#4b5b60;margin-top:8px;}
 .friends-webbuttons{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:14px;}
-.friends-webbuttons span{display:flex;align-items:center;justify-content:center;text-align:center;width:88px;height:31px;box-sizing:border-box;border:2px outset #fff;color:#334950;font:bold 10px/1 Arial,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",sans-serif;}
+.friends-webbuttons span{display:flex;align-items:center;justify-content:center;text-align:center;width:88px;height:31px;box-sizing:border-box;border:2px outset #fff;color:#334950;font:bold 10px/1 Arial,"SOYONG HANGUL","Noto Serif KR",sans-serif;}
 .friends-webbuttons span:nth-child(2){background:#d7d8cf;color:#3a4850;}
-.friends-footnote{text-align:center;font:italic 10px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#737b77;margin:9px 0 0;}
-.friends-link-note{font:10px/1.5 Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#5c6263;border-left:3px double #999;padding:4px 8px;margin:8px 2px;scroll-margin-top:16px;}
+.friends-footnote{text-align:center;font:italic 10px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#737b77;margin:9px 0 0;}
+.friends-link-note{font:10px/1.5 Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;color:#5c6263;border-left:3px double #999;padding:4px 8px;margin:8px 2px;scroll-margin-top:16px;}
 @media(max-width:795px){.container{width:min(100%,860px);}.main{padding:6px 7px;}.home-directory td{padding:12px 9px;}.story-head{flex-wrap:wrap;}.story-head span{font-size:9px;}}
 @media(max-width:480px){.container{width:100%;max-width:100%;}.left{width:81px;padding:5px 3px;border-right-width:2px;}.left .navgroup a{font-size:9px;}.old-logo{font-size:12px;}.main{padding:4px 4px;}.sponsors{width:100%;font-size:12px;}.home-directory{display:block;}.home-directory tbody,.home-directory tr{display:block;}.home-directory td{display:block;width:auto!important;padding:9px;}.home-directory .directory-title{border-right:0;border-bottom:1px dotted #aaa;}.directory-title strong{font-size:26px;}.story-head b{font-size:16px;}.story-head span{font-size:8px;}.sue-table,.sue-table tbody,.sue-table tr{display:block;}.sue-table td{display:block;width:auto!important;padding:10px;}.sue-name-cell{border-right:0;border-bottom:1px dotted #aaa;}.sue-story-cell{font-size:12px;}.friends-directory{font-size:9px;}.friends-directory th,.friends-directory td{padding:5px 3px;overflow-wrap:anywhere;}.friend-link{font-size:9px;padding:3px 2px;}.friends-bottom{font-size:9px;}.story-rule{font-size:8px;}}
 
@@ -637,10 +637,10 @@ hr{border:0;border-top:1px dashed #b7bbb8;border-bottom:0;height:0;margin:13px 0
 .sue-little-sticker { display:flex; flex-direction:column; align-items:flex-start; gap:2px; margin:8px 0 6px; }
 .sue-little-sticker .gif-asset { max-width:128px; }
 .sue-little-sticker img { display:block; max-width:100%; max-height:75px; object-fit:contain; }
-.sue-little-sticker small { font:9px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; color:#52615e; }
+.sue-little-sticker small { font:9px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace; color:#52615e; }
 .friends-gif-header { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:3px 12px; margin:12px 0 5px; border-bottom:1px dotted #a7adaa; padding-bottom:5px; }
-.friends-gif-header b { color:#303b42; font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; }
-.friends-gif-header small { color:#747c7a; font:10px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif; }
+.friends-gif-header b { color:#303b42; font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace; }
+.friends-gif-header small { color:#747c7a; font:10px Georgia,"SOYONG HANGUL","Noto Serif KR",serif; }
 .friends-gif-rack { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px 5px; padding:8px 3px 10px; border-bottom:1px dotted #b0b7b2; margin-bottom:14px; }
 button.friend-gif { display:block; min-width:0; width:100%; padding:4px 2px; border:1px dotted transparent; background:transparent; color:inherit; text-align:center; cursor:pointer; font:inherit; }
 button.friend-gif:hover,button.friend-gif:focus-visible { border-color:#8e9999; background:#f0f1ea; outline:1px dotted #8e9999; }
@@ -648,102 +648,102 @@ button.friend-gif:active { border-style:inset; }
 .friend-gif-picture { min-height:94px; display:flex; align-items:center; justify-content:center; padding:4px; }
 .friend-gif .gif-asset { width:100%; display:flex; align-items:center; justify-content:center; }
 .friend-gif img { display:block; max-width:100%; max-height:92px; width:auto; height:auto; object-fit:contain; }
-.friend-gif small { display:block; margin:2px auto 0; font:bold 9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;  overflow-wrap:anywhere; }
-.sue-gif-portrait .gif-fallback,.sue-little-sticker .gif-fallback,.friend-gif .gif-fallback { background:#efeee9; color:#555; border:1px dashed #aaa; font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace; padding:6px; }
+.friend-gif small { display:block; margin:2px auto 0; font:bold 9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;  overflow-wrap:anywhere; }
+.sue-gif-portrait .gif-fallback,.sue-little-sticker .gif-fallback,.friend-gif .gif-fallback { background:#efeee9; color:#555; border:1px dashed #aaa; font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace; padding:6px; }
 @media(max-width:795px){.friends-gif-rack{grid-template-columns:repeat(3,minmax(0,1fr));}}
 @media(max-width:480px){.friends-gif-rack{grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 2px;}.friend-gif-picture{min-height:70px;}.friend-gif img{max-height:70px;}.friend-gif small{font-size:8px;}.sue-gif-portrait img{max-height:100px;}}
 
 /* 2026-11-12 — HYPERLINK HEAVEN HAND-MADE ENTRY PAGE: restrained 90s personal web. */
 .home-front{background:#fffefa;border:4px ridge #a1a9a9;margin:10px 0 8px;color:#263640;box-shadow:2px 2px 0 #c1c8c7;}
-.home-front-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:4px 9px;background:#e6e9e8;border-bottom:2px ridge #a9afae;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#46565a;letter-spacing:.3px;}
+.home-front-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:4px 9px;background:#e6e9e8;border-bottom:2px ridge #a9afae;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#46565a;letter-spacing:.3px;}
 .home-front-table{width:100%;border-collapse:collapse;table-layout:fixed;}
 .home-front-table td{vertical-align:top;padding:13px 14px;}
 .home-front-letter{width:57%;border-right:2px dotted #aeb9b5;background:linear-gradient(155deg,#fffdf4 0%,#f7f8f1 100%);text-align:center;}
-.home-front-stars{font:19px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#8e533b;letter-spacing:12px;line-height:1;}
-.home-front-welcome{margin:10px 0 4px;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;color:#68787e;}
-.home-front-letter h1{font:bold clamp(24px,3.2vw,41px)/.98 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-1.3px;color:#1e4054;text-align:center;margin:4px 0 10px;text-shadow:1px 1px #e1e5df;}
+.home-front-stars{font:19px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#8e533b;letter-spacing:12px;line-height:1;}
+.home-front-welcome{margin:10px 0 4px;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;color:#68787e;}
+.home-front-letter h1{font:bold clamp(24px,3.2vw,41px)/.98 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-1.3px;color:#1e4054;text-align:center;margin:4px 0 10px;text-shadow:1px 1px #e1e5df;}
 .home-front-letter h1 span{font-size:.8em;letter-spacing:1px;color:#8c493b;}
-.home-front-letter p{font:italic 12px/1.4 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#39484b;margin:4px auto 12px;max-width:360px;}
-.home-front-note{border-top:2px double #b9bcb4;border-bottom:2px double #b9bcb4;padding:7px 4px;margin:0 auto 4px;max-width:380px;color:#48524d;font:11px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.home-front-letter p{font:italic 12px/1.4 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#39484b;margin:4px auto 12px;max-width:360px;}
+.home-front-note{border-top:2px double #b9bcb4;border-bottom:2px double #b9bcb4;padding:7px 4px;margin:0 auto 4px;max-width:380px;color:#48524d;font:11px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .home-front-note b{color:#884638;}
 .home-front-files{width:43%;text-align:left;background:#f9f9f5;}
-.home-front-index{font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#2a4554;border-bottom:2px solid #a9b4b7;padding:2px 0 7px;margin:0 0 7px;}
-.home-front-file{display:flex;align-items:baseline;gap:5px;padding:5px 2px;border-bottom:1px dotted #bfc3be;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.home-front-file>span{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#818a88;}
+.home-front-index{font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#2a4554;border-bottom:2px solid #a9b4b7;padding:2px 0 7px;margin:0 0 7px;}
+.home-front-file{display:flex;align-items:baseline;gap:5px;padding:5px 2px;border-bottom:1px dotted #bfc3be;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.home-front-file>span{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#818a88;}
 .home-front-file a{color:#164c8a!important;font-weight:bold;text-decoration:underline;background:transparent!important;}
 .home-front-file a:hover{color:#8c493b!important;text-decoration:none;background:#eceee8!important;}
-.home-front-file small{margin-left:auto;font:italic 9px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#757c76;white-space:nowrap;}
-.home-front-files-note{margin-top:12px;font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#6d7873;text-align:right;}
-.home-front-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:5px;padding:6px 8px;background:#e9ebe5;border-top:2px ridge #b7bdb8;font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#4c5d65;}
+.home-front-file small{margin-left:auto;font:italic 9px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#757c76;white-space:nowrap;}
+.home-front-files-note{margin-top:12px;font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#6d7873;text-align:right;}
+.home-front-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:5px;padding:6px 8px;background:#e9ebe5;border-top:2px ridge #b7bdb8;font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#4c5d65;}
 .home-front-bottom a{color:#164c8a!important;font-weight:bold;}
-.home-front-counter{padding:7px 5px;text-align:center;margin:7px 0;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#42545a;background:#faf9f4;border-bottom:1px dashed #b6beba;}
+.home-front-counter{padding:7px 5px;text-align:center;margin:7px 0;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#42545a;background:#faf9f4;border-bottom:1px dashed #b6beba;}
 .home-front-counter .counter{font-size:16px;letter-spacing:1px;padding:1px 4px;border:2px inset #bbb;}
 .home-front-counter .blink{color:#8a4b3a;}
 .home-front-counter a{color:#164c8a!important;}
 .friend-room{display:none;scroll-margin-top:15px;background:#f5f6f2;margin:12px 3px;border:3px outset #d6d9d2;box-shadow:2px 2px 0 #c0c5c4;}
 .friend-room:target{display:block;}
-.friend-room-bar{background:#dce2e3;color:#2c4b59;display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:2px solid #9da8ac;padding:5px 8px;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.friend-room-bar a{font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#254e7d!important;padding:1px 5px;border:2px outset #fff;background:#efefeb!important;}
-.friend-room-body{background:#fffdf6;text-align:center;padding:20px 12px 13px;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#33444a;}
-.friend-room-body b{font:bold 17px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.friend-room-bar{background:#dce2e3;color:#2c4b59;display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:2px solid #9da8ac;padding:5px 8px;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.friend-room-bar a{font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#254e7d!important;padding:1px 5px;border:2px outset #fff;background:#efefeb!important;}
+.friend-room-body{background:#fffdf6;text-align:center;padding:20px 12px 13px;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#33444a;}
+.friend-room-body b{font:bold 17px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;}
 .friend-room-body>span{display:block;font-size:25px;margin:8px auto;}
 .friend-room-body p{margin:9px 0;color:#3d4c52;}
-.friend-room-body small{display:block;color:#64706c;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.friend-room-body small{display:block;color:#64706c;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .friend-room-body a{color:#164c8a!important;text-decoration:underline;}
 @media(max-width:795px){.home-front-table td{padding:10px 8px;}.home-front-file small{display:none;}.home-front-letter h1{font-size:29px;}}
 @media(max-width:480px){.home-front-table,.home-front-table tbody,.home-front-table tr{display:block;}.home-front-letter,.home-front-files{display:block;width:auto!important;border-right:0;}.home-front-letter{border-bottom:2px dotted #b3b9b7;}.home-front-letter h1{font-size:27px;}.home-front-files{padding:11px 10px!important;}.home-front-file small{display:block;font-size:8px;}.home-front-bottom{font-size:8px;}.home-front-bar{font-size:8px;}.home-front-counter{font-size:9px;}}
 
 /* A PERSONAL ENTRY, NOT A FOLDER INDEX — lo-fi collage of real old-web objects. */
 .entry-utility,.entry-ticker,.entry-page,.entry-postscript{box-sizing:border-box;}
-.entry-utility{margin:0 0 2px;display:flex;gap:6px;align-items:center;justify-content:space-between;border-top:3px double #555f62;border-bottom:1px solid #8e9a9d;padding:5px 6px;background:#f8f7ef;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#293c43;}
-.entry-utility b{font:bold 13px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#162c40;}
-.entry-ticker{border:1px solid #333;background:#f0f1e8;height:21px;margin-bottom:8px;font:bold 11px/19px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#1f3344;}
+.entry-utility{margin:0 0 2px;display:flex;gap:6px;align-items:center;justify-content:space-between;border-top:3px double #555f62;border-bottom:1px solid #8e9a9d;padding:5px 6px;background:#f8f7ef;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#293c43;}
+.entry-utility b{font:bold 13px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#162c40;}
+.entry-ticker{border:1px solid #333;background:#f0f1e8;height:21px;margin-bottom:8px;font:bold 11px/19px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#1f3344;}
 .entry-ticker marquee{color:#1f3344;}
 .entry-page{background:#fffdf6;border:3px double #333f48;position:relative;box-shadow:4px 4px 0 #abb4b3;margin:0 3px 8px;color:#142d3f;}
 .entry-page::before{content:" ";position:absolute;inset:4px;border:1px dotted #c8c9c1;pointer-events:none;z-index:1;}
-.entry-stamp-top{position:absolute;right:13px;top:13px;z-index:5;transform:rotate(6deg);background:#fbf3cb;color:#263d41;text-align:center;border:2px solid #6e7771;padding:5px 9px;font:bold 9px/1.16 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;box-shadow:2px 3px 0 #bdbdb1;}
+.entry-stamp-top{position:absolute;right:13px;top:13px;z-index:5;transform:rotate(6deg);background:#fbf3cb;color:#263d41;text-align:center;border:2px solid #6e7771;padding:5px 9px;font:bold 9px/1.16 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;box-shadow:2px 3px 0 #bdbdb1;}
 .entry-stamp-top span{color:#ab3528;font-size:9px;}
 .entry-stage{position:relative;height:425px;overflow:hidden;border-bottom:2px dotted #aab7b0;background:repeating-linear-gradient(0deg,transparent 0px,transparent 22px,rgba(80,101,108,.035) 23px,transparent 24px);}
 .entry-type{position:absolute;z-index:3;left:5%;top:30px;width:54%;text-align:left;}
-.entry-salute{display:inline-block;border-top:2px solid #243c4b;border-bottom:2px solid #243c4b;padding:4px 8px;font:bold 13px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:1.2px;color:#a73a29;transform:rotate(-2deg);}
-.entry-wordmark{font:bold clamp(49px,6.7vw,83px)/.91 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-6px;color:#173249;text-shadow:3px 3px 0 #d7d9ce;margin:22px 0 5px;transform:rotate(-3deg);white-space:nowrap;text-align:left;}
+.entry-salute{display:inline-block;border-top:2px solid #243c4b;border-bottom:2px solid #243c4b;padding:4px 8px;font:bold 13px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:1.2px;color:#a73a29;transform:rotate(-2deg);}
+.entry-wordmark{font:bold clamp(49px,6.7vw,83px)/.91 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-6px;color:#173249;text-shadow:3px 3px 0 #d7d9ce;margin:22px 0 5px;transform:rotate(-3deg);white-space:nowrap;text-align:left;}
 .entry-wordmark span{color:#b62e28;text-shadow:2px 2px 0 #e6e1c9;}
-.entry-little-url{margin:0 0 23px 8px;font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#5b696c;transform:rotate(-3deg);}
-.entry-welcome{font:bold 12px/1.35 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#253d4c;margin:0 0 14px 4px;letter-spacing:1px;}
-.entry-welcome em{font:italic 18px/1.3 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#b54130;letter-spacing:-.5px;}
-.entry-about-note{display:inline-block;transform:rotate(1.4deg);background:#f3f1e3;border:1px solid #8f988d;border-left:5px solid #6b7f82;padding:9px 20px 7px 13px;font:11px/1.42 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;box-shadow:3px 4px 0 #d3d4ca;color:#2c403d;}
-.entry-about-note b{font:bold italic 13px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#943d30;}
+.entry-little-url{margin:0 0 23px 8px;font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#5b696c;transform:rotate(-3deg);}
+.entry-welcome{font:bold 12px/1.35 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#253d4c;margin:0 0 14px 4px;letter-spacing:1px;}
+.entry-welcome em{font:italic 18px/1.3 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#b54130;letter-spacing:-.5px;}
+.entry-about-note{display:inline-block;transform:rotate(1.4deg);background:#f3f1e3;border:1px solid #8f988d;border-left:5px solid #6b7f82;padding:9px 20px 7px 13px;font:11px/1.42 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;box-shadow:3px 4px 0 #d3d4ca;color:#2c403d;}
+.entry-about-note b{font:bold italic 13px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#943d30;}
 .entry-about-note small{display:block;text-align:right;margin-top:3px;font-size:10px;}
-.entry-enter{position:absolute;left:205px;bottom:2px;display:inline-block;transform:rotate(-4deg);background:#fff;border:3px outset #c8cece;padding:7px 8px;color:#06499d!important;text-decoration:underline;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;}
+.entry-enter{position:absolute;left:205px;bottom:2px;display:inline-block;transform:rotate(-4deg);background:#fff;border:3px outset #c8cece;padding:7px 8px;color:#06499d!important;text-decoration:underline;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;}
 .entry-enter:hover{background:#fff3ab!important;color:#932c23!important;}
 .entry-collage{position:absolute;right:6%;top:36px;width:38%;height:335px;}
-.entry-handarrow{position:absolute;top:0;left:-17px;transform:rotate(-9deg);font:italic bold 14px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#aa4536;}
+.entry-handarrow{position:absolute;top:0;left:-17px;transform:rotate(-9deg);font:italic bold 14px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#aa4536;}
 .entry-cutout{position:absolute;display:flex;flex-direction:column;align-items:center;text-decoration:none!important;color:#23415d!important;transition:transform .12s ease;}
 .entry-cutout .entry-gif-wrap{display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:100%;height:100%;padding:5px;background:#fff;border:3px ridge #c2c3bb;box-shadow:3px 4px 0 #adb4b2;}
 .entry-cutout .gif-asset,.entry-cutout .gif-asset img{max-width:100%;max-height:100%;object-fit:contain;}
-.entry-cutout .gif-asset.missing .gif-fallback{border:1px dotted #aaa;padding:7px;background:#fff;color:#27475d;font:12px/1.4 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;min-width:45px;text-align:center;}
-.entry-cutout-label{display:inline-block;margin-top:6px;padding:2px 4px;background:#fffefa;border-bottom:1px dashed #aab1a9;color:#1d4664;font:italic 11px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;white-space:nowrap;}
+.entry-cutout .gif-asset.missing .gif-fallback{border:1px dotted #aaa;padding:7px;background:#fff;color:#27475d;font:12px/1.4 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;min-width:45px;text-align:center;}
+.entry-cutout-label{display:inline-block;margin-top:6px;padding:2px 4px;background:#fffefa;border-bottom:1px dashed #aab1a9;color:#1d4664;font:italic 11px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;white-space:nowrap;}
 .entry-cutout:hover{z-index:10!important;transform:rotate(0deg) translateY(-4px) scale(1.05)!important;background:transparent!important;}
 .entry-cutout:hover .entry-cutout-label{color:#a53222;}
 .entry-cutout-sue{z-index:3;left:35px;top:25px;width:176px;height:107px;transform:rotate(5deg);}
 .entry-cutout-lava{z-index:2;right:-5px;top:135px;width:85px;height:142px;transform:rotate(7deg);}
 .entry-cutout-friends{z-index:4;left:-6px;top:164px;width:147px;height:92px;transform:rotate(-6deg);}
 .entry-cutout-korea{z-index:1;left:38px;top:264px;width:139px;height:68px;transform:rotate(4deg);}
-.entry-loose-star{position:absolute;top:128px;left:15px;font:36px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#7f8f82;transform:rotate(-12deg);}
-.entry-route-title{position:relative;z-index:2;background:#e6e9e4;border-top:1px solid #b9c0be;border-bottom:1px solid #9ca8a9;text-align:center;padding:5px;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;color:#344e55;}
+.entry-loose-star{position:absolute;top:128px;left:15px;font:36px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#7f8f82;transform:rotate(-12deg);}
+.entry-route-title{position:relative;z-index:2;background:#e6e9e4;border-top:1px solid #b9c0be;border-bottom:1px solid #9ca8a9;text-align:center;padding:5px;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;color:#344e55;}
 .entry-route-title span{color:#ae4131;}
 .entry-routes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:#fffefa;position:relative;z-index:2;padding:8px 9px 10px;gap:0 10px;}
-.entry-routes a{display:flex;gap:6px;align-items:center;border-bottom:1px dotted #a5afab;padding:7px 3px;min-width:0;color:#134995!important;background:transparent!important;font:12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline!important;}
+.entry-routes a{display:flex;gap:6px;align-items:center;border-bottom:1px dotted #a5afab;padding:7px 3px;min-width:0;color:#134995!important;background:transparent!important;font:12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline!important;}
 .entry-routes a:nth-child(2),.entry-routes a:nth-child(5){transform:rotate(-1deg);}
 .entry-routes a:nth-child(3),.entry-routes a:nth-child(6){transform:rotate(1deg);}
 .entry-routes a:hover{background:#fff3bd!important;color:#ad3c27!important;}
-.entry-routes a small{font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#707a78;}
+.entry-routes a small{font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#707a78;}
 .entry-routes a b{overflow-wrap:anywhere;}
 .entry-routes a span{margin-left:auto;text-decoration:none;color:#b34234;}
-.entry-footer{position:relative;z-index:2;background:#eeeae0;border-top:3px double #87928e;padding:5px 9px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#475659;}
+.entry-footer{position:relative;z-index:2;background:#eeeae0;border-top:3px double #87928e;padding:5px 9px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#475659;}
 .entry-footer .counter{font-size:13px;letter-spacing:1px;padding:1px 4px;border-width:2px;vertical-align:middle;}
 .entry-footer a{color:#165099!important;font-weight:bold;}
-.entry-postscript{margin:9px auto 24px;text-align:center;font:12px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#5a6665;border-bottom:2px ridge #b9bdbc;padding-bottom:12px;}
+.entry-postscript{margin:9px auto 24px;text-align:center;font:12px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#5a6665;border-bottom:2px ridge #b9bdbc;padding-bottom:12px;}
 .entry-postscript a{color:#144a8b!important;}
 @media(max-width:795px){.entry-stage{height:410px;}.entry-wordmark{font-size:clamp(42px,7.2vw,70px);}.entry-collage{right:4%;width:39%;}.entry-cutout-sue{left:20px;}.entry-cutout-friends{left:-12px;}.entry-enter{left:175px;}.entry-type{left:4%;}}
 @media(max-width:580px){.entry-utility{font-size:8px;}.entry-utility b{font-size:10px;}.entry-stamp-top{right:8px;top:9px;font-size:7px;}.entry-stage{height:680px;}.entry-type{width:92%;left:6%;top:25px;}.entry-wordmark{font-size:clamp(46px,12vw,73px);}.entry-about-note{font-size:10px;}.entry-enter{left:52%;bottom:0;}.entry-collage{top:340px;left:11%;right:auto;width:79%;height:295px;}.entry-handarrow{top:0;left:20px;}.entry-cutout-sue{left:28%;top:12px;width:158px;height:97px;}.entry-cutout-lava{right:0;top:123px;width:72px;height:126px;}.entry-cutout-friends{left:3%;top:131px;width:137px;height:78px;}.entry-cutout-korea{left:10%;top:226px;width:130px;height:60px;}.entry-loose-star{top:107px;left:15px;}.entry-routes{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 6px;}.entry-footer{font-size:8px;}.entry-stamp-top{z-index:8;}}
@@ -819,26 +819,26 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 .korea-zone .korea-header-item,.korea-zone .korea-archive-item {background:#f3f3f3!important;border-color:#bbb!important;}
 .korea-zone .korea-notice,.korea-zone .korea-footer {background:#eee!important;color:#111!important;border-color:#bbb!important;}
 /* High-contrast, non-scrapbook welcome layout */
-.so-topline{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 4px;border-top:3px double #111;border-bottom:1px solid #aaa;color:#111;background:#fff;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.so-topline b{font:bold 12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:.2px;}
+.so-topline{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 4px;border-top:3px double #111;border-bottom:1px solid #aaa;color:#111;background:#fff;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.so-topline b{font:bold 12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:.2px;}
 .so-topright{white-space:nowrap;color:#555;}
 .so-topright .blink{color:#1f8b1f;}
 .so-home{border:4px ridge #aaa;background:#fff;color:#111;margin:9px 0 7px;box-shadow:4px 4px 0 #ccc;}
-.so-titlebar{display:flex;gap:8px;justify-content:space-between;align-items:center;background:#090909;color:#fff;border-bottom:3px double #aaa;padding:7px 9px;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.2px;}
+.so-titlebar{display:flex;gap:8px;justify-content:space-between;align-items:center;background:#090909;color:#fff;border-bottom:3px double #aaa;padding:7px 9px;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.2px;}
 .so-titlebar span:last-child{white-space:nowrap;color:#ddd;}
 .so-heading{text-align:center;padding:23px 12px 17px;background:#fff;}
-.so-preface{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:3px;color:#444;margin-bottom:5px;}
-.so-heading h1{font:bold clamp(57px,8.9vw,113px)/.95 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-7px;color:#000;margin:10px 0 13px;text-shadow:3px 3px 0 #fff, 5px 5px 0 #888;}
-.so-asterisk{font:italic bold .65em Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;vertical-align:top;margin-left:5px;text-shadow:none;}
-.so-greeting{display:inline-block;font:italic bold 16px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;border-top:1px solid #888;border-bottom:1px solid #888;padding:4px 11px;color:#111;}
+.so-preface{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:3px;color:#444;margin-bottom:5px;}
+.so-heading h1{font:bold clamp(57px,8.9vw,113px)/.95 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-7px;color:#000;margin:10px 0 13px;text-shadow:3px 3px 0 #fff, 5px 5px 0 #888;}
+.so-asterisk{font:italic bold .65em Georgia,"SOYONG HANGUL","Noto Serif KR",serif;vertical-align:top;margin-left:5px;text-shadow:none;}
+.so-greeting{display:inline-block;font:italic bold 16px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;border-top:1px solid #888;border-bottom:1px solid #888;padding:4px 11px;color:#111;}
 .so-checker{height:10px;border-top:1px solid #999;border-bottom:1px solid #d5d5d5;background:#f3f3f3;}
 .so-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);min-height:273px;}
-.so-editorial{padding:17px 16px 14px;border-right:3px double #000;font:14px/1.5 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-.so-label{display:block;background:#eee;color:#111;border:1px inset #bbb;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.3px;padding:5px;margin-bottom:11px;}
+.so-editorial{padding:17px 16px 14px;border-right:3px double #000;font:14px/1.5 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+.so-label{display:block;background:#eee;color:#111;border:1px inset #bbb;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.3px;padding:5px;margin-bottom:11px;}
 .so-editorial p{margin:0 0 13px;color:#111!important;}
-.so-sticker{border:1px dashed #555;background:#fff;padding:7px 9px;font:10px/1.55 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;margin:12px 0;}
+.so-sticker{border:1px dashed #555;background:#fff;padding:7px 9px;font:10px/1.55 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;margin:12px 0;}
 .so-sticker strong{color:#000;}
-.so-visit{display:inline-block;color:#0000ee!important;background:#eee!important;padding:7px 9px;border:3px outset #fff;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-decoration:underline;margin-top:2px;}
+.so-visit{display:inline-block;color:#0000ee!important;background:#eee!important;padding:7px 9px;border:3px outset #fff;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-decoration:underline;margin-top:2px;}
 .so-visit:hover{color:#fff!important;background:#000!important;}
 .so-gif-display{padding:17px 12px 12px;background:#fff;}
 .so-gif-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;}
@@ -846,18 +846,18 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 .so-image{width:100%;height:104px;border:2px inset #bbb;background:#fff;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:5px;}
 .so-image .gif-asset,.so-image .gif-asset img{max-width:100%;max-height:95px;object-fit:contain;}
 .so-gif-grid>a:hover .so-image{outline:2px solid #000;}
-.so-imagelabel{font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;word-break:break-word;}
+.so-imagelabel{font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;word-break:break-word;}
 .so-gif-grid>a:hover .so-imagelabel{color:#000!important;}
-.so-undertext{display:block;margin:14px 0 0;text-align:right;color:#555;font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.so-undertext{display:block;margin:14px 0 0;text-align:right;color:#555;font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .so-directory{border-top:3px double #000;border-bottom:1px solid #888;display:flex;gap:0;flex-wrap:wrap;align-items:stretch;background:#ececec;}
-.so-directory-title{background:#111;color:#fff;padding:9px;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;margin-right:auto;}
-.so-directory a{display:inline-block;color:#0000ee!important;border-left:1px solid #aaa;padding:8px 9px;font:bold 11px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;background:transparent!important;text-decoration:underline;}
+.so-directory-title{background:#111;color:#fff;padding:9px;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;margin-right:auto;}
+.so-directory a{display:inline-block;color:#0000ee!important;border-left:1px solid #aaa;padding:8px 9px;font:bold 11px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;background:transparent!important;text-decoration:underline;}
 .so-directory a:hover{color:#fff!important;background:#000!important;}
-.so-bottom{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:5px 7px;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;background:#fff;color:#333;}
+.so-bottom{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:5px 7px;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;background:#fff;color:#333;}
 .so-bottom marquee{min-width:0;flex:1;color:#111!important;}
 .so-bottom>span{white-space:nowrap;}
 .so-bottom .counter{font-size:12px;letter-spacing:1px;padding:2px 3px;border-width:2px;}
-.so-afterhome{text-align:center;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;margin:12px auto 24px;padding-bottom:8px;border-bottom:1px dashed #aaa;}
+.so-afterhome{text-align:center;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;margin:12px auto 24px;padding-bottom:8px;border-bottom:1px dashed #aaa;}
 .so-afterhome a{color:#0000ee!important;}
 @media(max-width:795px){.so-heading h1{letter-spacing:-5px;}.so-gif-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.so-image{height:87px;}}
 @media(max-width:580px){.so-topline{font-size:8px;}.so-topright{display:none;}.so-heading{padding:18px 3px;}.so-heading h1{font-size:clamp(44px,11vw,76px);letter-spacing:-4px;}.so-preface{letter-spacing:1px;font-size:8px;}.so-greeting{font-size:12px;}.so-content{display:block;}.so-editorial{border-right:0;border-bottom:3px double #000;padding:12px;}.so-gif-display{padding:12px;}.so-gif-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;}.so-image{height:69px;padding:2px;}.so-image .gif-asset img{max-height:60px;}.so-imagelabel{font-size:8px;}.so-titlebar{font-size:8px;}.so-directory-title{width:100%;box-sizing:border-box;}.so-directory a{font-size:10px;flex:1;text-align:center;padding:7px 5px;}.so-bottom{font-size:8px;}}
@@ -900,83 +900,83 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 .web-ring a{color:#0000ee!important;}
 
 /* SOYONG entrance / actual personal-web language, with no checkerboard or tinted retro props. */
-.earlyhome{background:#fff;color:#111;margin:5px 0 24px;font:13px/1.4 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;border-top:1px solid #222;border-bottom:2px solid #222;}
-.eh-caption{display:flex;justify-content:space-between;gap:10px;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;border-bottom:1px solid #888;padding:5px 3px;color:#444;}
+.earlyhome{background:#fff;color:#111;margin:5px 0 24px;font:13px/1.4 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;border-top:1px solid #222;border-bottom:2px solid #222;}
+.eh-caption{display:flex;justify-content:space-between;gap:10px;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;border-bottom:1px solid #888;padding:5px 3px;color:#444;}
 .eh-caption b{color:#111;}
 .eh-welcome{padding:14px 10px 8px;text-align:center;}
-.eh-small{display:block;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;}
-.eh-name{font:bold clamp(38px,6.7vw,73px)/.95 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-3px;color:#111;margin:8px 0 10px;}
+.eh-small{display:block;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:2px;}
+.eh-name{font:bold clamp(38px,6.7vw,73px)/.95 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:-3px;color:#111;margin:8px 0 10px;}
 .eh-name i{font-weight:normal;letter-spacing:-2px;}
-.eh-note{font:italic 14px Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#333;}
-.eh-rail{color:#aaa;text-align:center;height:25px;overflow:hidden;white-space:nowrap;font:13px/25px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:3px;border-bottom:1px solid #aaa;}
+.eh-note{font:italic 14px Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#333;}
+.eh-rail{color:#aaa;text-align:center;height:25px;overflow:hidden;white-space:nowrap;font:13px/25px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:3px;border-bottom:1px solid #aaa;}
 .eh-board{border-collapse:collapse;width:100%;table-layout:fixed;background:#fff;}
 .eh-board>tbody>tr>td{vertical-align:top;padding:14px 13px 16px;}
 .eh-maincol{width:65%;}
 .eh-sidecol{width:35%;border-left:1px dotted #777;text-align:center;}
-.eh-greeting{font:14px/1.35 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:0 0 10px;max-width:440px;}
-.eh-rooms-title{border-top:1px solid #888;border-bottom:1px solid #888;padding:5px 0;margin:15px 0 2px;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.eh-rooms-title small{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#666;}
+.eh-greeting{font:14px/1.35 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;margin:0 0 10px;max-width:440px;}
+.eh-rooms-title{border-top:1px solid #888;border-bottom:1px solid #888;padding:5px 0;margin:15px 0 2px;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.eh-rooms-title small{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#666;}
 .eh-rooms{border-collapse:collapse;width:100%;}
 .eh-rooms tr{border-bottom:1px dotted #c3c3c3;}
 .eh-rooms td{vertical-align:middle;padding:9px 4px;}
 .eh-rooms .eh-visual{width:120px;text-align:center;}
 .eh-rooms .eh-visual img{max-width:116px;max-height:76px;object-fit:contain;display:block;margin:auto;}
-.eh-rooms a{font:13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#0000ee!important;background:transparent!important;text-decoration:underline!important;}
+.eh-rooms a{font:13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#0000ee!important;background:transparent!important;text-decoration:underline!important;}
 .eh-rooms a:hover{color:#000!important;}
-.eh-rooms small{display:block;font:11px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#555;padding-top:4px;}
-.eh-rooms .gif-fallback{background:#fff!important;border:1px dotted #999!important;color:#333!important;padding:5px!important;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.eh-sideheading{font:bold 12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:2px double #888;padding-bottom:8px;}
-.eh-sidecol p{margin:12px 0;font:12px/1.45 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111!important;}
+.eh-rooms small{display:block;font:11px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#555;padding-top:4px;}
+.eh-rooms .gif-fallback{background:#fff!important;border:1px dotted #999!important;color:#333!important;padding:5px!important;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.eh-sideheading{font:bold 12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;border-bottom:2px double #888;padding-bottom:8px;}
+.eh-sidecol p{margin:12px 0;font:12px/1.45 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#111!important;}
 .eh-asidegif{min-height:58px;display:flex;align-items:center;justify-content:center;}
 .eh-asidegif img{max-width:125px;max-height:73px;object-fit:contain;}
 .eh-sidecol p.eh-prompt{font-weight:bold;margin-bottom:4px;}
 .eh-sidecol a{color:#0000ee!important;text-decoration:underline!important;background:transparent!important;}
 .eh-sidecol hr{border:0;border-top:1px dotted #bbb;height:0;margin:16px 0;}
-.eh-sidecol .eh-pixelnote{font:9px/1.45 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555!important;}
-.eh-number{font:bold 10px/1.8 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;margin:15px 0 0;}
+.eh-sidecol .eh-pixelnote{font:9px/1.45 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555!important;}
+.eh-number{font:bold 10px/1.8 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;margin:15px 0 0;}
 .eh-number .counter{font-size:15px;padding:1px 3px;letter-spacing:1px;}
-.eh-finish{font:10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;border-top:1px solid #aaa;background:#f2f2f2;height:22px;overflow:hidden;}
+.eh-finish{font:10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;border-top:1px solid #aaa;background:#f2f2f2;height:22px;overflow:hidden;}
 .eh-finish marquee{color:#111!important;line-height:22px;}
 @media(max-width:620px){.eh-board,.eh-board tbody,.eh-board tr{display:block;}.eh-board>tbody>tr>td{display:block;width:100%;box-sizing:border-box;padding:12px;}.eh-sidecol{border-left:0;border-top:1px dotted #888;}.eh-caption{font-size:8px;}.eh-name{font-size:clamp(33px,10vw,55px);}.eh-rail{font-size:11px;}.eh-rooms .eh-visual{width:105px;}.eh-rooms .eh-visual img{max-width:100px;}.eh-asidegif{min-height:40px;}}
 
 
 /* HAND-CODED HOME PAGE / 1995-1997 BROWSER DEFAULTS.
    No modern hero, panels, cards, checkerboard, yellowing or lavender. */
-.www-home { background:#fff; color:#000; margin:0 0 23px; padding:5px 5px 12px; font:14px/1.22 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif; }
+.www-home { background:#fff; color:#000; margin:0 0 23px; padding:5px 5px 12px; font:14px/1.22 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif; }
 .www-home center { text-align:center; }
-.www-home>center>small {font:11px "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-.www-home h1 {font:bold 43px/1.02 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:0;color:#000;margin:8px 0 8px;text-align:center;}
-.www-home h2 {font:bold 18px "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#000!important;margin:20px 0 2px;}
-.www-home .www-starry {font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;margin:9px auto;white-space:nowrap;overflow:hidden;max-width:94%;}
-.www-home .www-salute {font:bold 18px/1.35 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#000;margin:11px auto;letter-spacing:.25px;max-width:96%;}
+.www-home>center>small {font:11px "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;}
+.www-home h1 {font:bold 43px/1.02 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:0;color:#000;margin:8px 0 8px;text-align:center;}
+.www-home h2 {font:bold 18px "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;color:#000!important;margin:20px 0 2px;}
+.www-home .www-starry {font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;margin:9px auto;white-space:nowrap;overflow:hidden;max-width:94%;}
+.www-home .www-salute {font:bold 18px/1.35 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#000;margin:11px auto;letter-spacing:.25px;max-width:96%;}
 .www-home p {color:#000!important;}
 .www-home hr {display:block!important;border:0!important;border-top:2px ridge #888!important;height:0!important;margin:12px auto!important;}
 .www-home .www-topgifs {width:96%;max-width:740px;margin:15px auto 18px;border-collapse:separate;table-layout:fixed;}
 .www-home .www-topgifs td{width:33%;padding:0 9px;text-align:center;vertical-align:middle;height:142px;}
 .www-home .www-topgifs img{max-width:100%;max-height:133px;width:auto;height:auto;object-fit:contain;}
-.www-home .www-marquee {display:block;color:#000!important;background:#eee!important;border:1px solid #999;height:23px;line-height:23px;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.www-home .www-welcome {font:14px/1.35 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:8px 0 7px;table-layout:fixed;}
+.www-home .www-marquee {display:block;color:#000!important;background:#eee!important;border:1px solid #999;height:23px;line-height:23px;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.www-home .www-welcome {font:14px/1.35 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;margin:8px 0 7px;table-layout:fixed;}
 .www-home .www-welcome td {padding:8px 12px;vertical-align:top;}
 .www-home .www-welcome .www-text{width:69%;}
 .www-home .www-text p{margin:5px 0 11px;}
 .www-home .www-sidegif {width:31%;text-align:center;border-left:1px dotted #aaa;}
 .www-home .www-sidegif img{max-width:136px;max-height:75px;object-fit:contain;}
-.www-home .www-sidegif small{display:inline-block;font:10px/1.2 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;margin-top:12px;}
-.www-home .www-sign {text-align:right;font:italic 15px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin-right:12px;}
-.www-home .www-directory {width:97%;margin:9px auto 13px;table-layout:fixed;border:3px ridge #b8b8b8;background:#fff;border-spacing:3px;font:13px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.www-home .www-sidegif small{display:inline-block;font:10px/1.2 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;margin-top:12px;}
+.www-home .www-sign {text-align:right;font:italic 15px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin-right:12px;}
+.www-home .www-directory {width:97%;margin:9px auto 13px;table-layout:fixed;border:3px ridge #b8b8b8;background:#fff;border-spacing:3px;font:13px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 .www-home .www-directory td {border:1px inset #c5c5c5;padding:9px 7px;vertical-align:middle;background:#fff;color:#000!important;}
-.www-home .www-directory tr:first-child td {background:#eee!important;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:6px;}
+.www-home .www-directory tr:first-child td {background:#eee!important;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:6px;}
 .www-home .www-directory td:first-child:not([colspan]) {width:124px;text-align:center;}
 .www-home .www-directory img{max-width:110px;max-height:79px;object-fit:contain;vertical-align:middle;}
-.www-home .www-directory small{display:inline-block;font:12px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#333;margin:4px 0;}
+.www-home .www-directory small{display:inline-block;font:12px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#333;margin:4px 0;}
 .www-home a,.www-home a:visited,.www-home a:link {color:#0000ee!important;text-decoration:underline!important;background:transparent!important;}
 .www-home a:hover {color:#0000ee!important;background:#ddd!important;}
-.www-home .gif-fallback {background:transparent!important;border:0!important;color:#0000ee!important;text-decoration:underline;font:bold 10px Courier New,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:2px;}
-.www-home .www-littlelinks {margin:15px 0 18px!important;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.www-home .gif-fallback {background:transparent!important;border:0!important;color:#0000ee!important;text-decoration:underline;font:bold 10px Courier New,"SOYONG HANGUL","Noto Serif KR",monospace;padding:2px;}
+.www-home .www-littlelinks {margin:15px 0 18px!important;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .www-home .www-bottom {border-collapse:collapse;margin:12px 0 7px;}
 .www-home .www-bottom td {vertical-align:middle;font-size:11px;}
 .www-home .counter {font-size:15px;letter-spacing:2px;padding:2px 5px;}
-.www-home .www-footer {padding:8px 0 2px;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.www-home .www-footer {padding:8px 0 2px;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 @media(max-width:580px){
  .www-home{padding:3px;font-size:12px;}
  .www-home h1{font-size:clamp(30px,9vw,43px)}
@@ -1002,24 +1002,24 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 
 /* Background music: conspicuous real 1990s desktop utility, not a modern card. */
-.oldweb-bgm{display:block;box-sizing:border-box;margin:1px 0 17px;padding:0;background:#e8e8e8;color:#111;border:3px ridge #999;box-shadow:3px 3px 0 #c7c7c7;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;scroll-margin-top:12px;}
-.oldweb-bgm-label{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#101010;color:#fff;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:8px 9px;letter-spacing:.2px;}
-.oldweb-bgm-x{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;background:#d7d7d7;color:#111;padding:2px 5px;border:2px outset white;letter-spacing:0;}
+.oldweb-bgm{display:block;box-sizing:border-box;margin:1px 0 17px;padding:0;background:#e8e8e8;color:#111;border:3px ridge #999;box-shadow:3px 3px 0 #c7c7c7;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;scroll-margin-top:12px;}
+.oldweb-bgm-label{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#101010;color:#fff;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:8px 9px;letter-spacing:.2px;}
+.oldweb-bgm-x{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;background:#d7d7d7;color:#111;padding:2px 5px;border:2px outset white;letter-spacing:0;}
 .oldweb-bgm-main{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 13px 10px;}
 .oldweb-bgm-track{display:flex;flex-direction:column;gap:5px;min-width:0;}
-.oldweb-bgm-eyebrow{font:bold 9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;letter-spacing:1px;}
-.oldweb-bgm-track strong{font:bold clamp(16px,2vw,23px) "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;letter-spacing:-1px;color:#111;}
-.oldweb-bgm-caption{font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;}
+.oldweb-bgm-eyebrow{font:bold 9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;letter-spacing:1px;}
+.oldweb-bgm-track strong{font:bold clamp(16px,2vw,23px) "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;letter-spacing:-1px;color:#111;}
+.oldweb-bgm-caption{font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;}
 .oldweb-bgm-control{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;flex-shrink:0;}
-.oldweb-bgm button{display:inline-block;border:3px outset #fff;background:#d6d6d6;color:#111;padding:10px 12px;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;cursor:pointer;}
+.oldweb-bgm button{display:inline-block;border:3px outset #fff;background:#d6d6d6;color:#111;padding:10px 12px;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;cursor:pointer;}
 .oldweb-bgm button:hover{background:#fff!important;color:#000!important;}
 .oldweb-bgm button:active{border-style:inset;}
-.oldweb-bgm #bgmToggle{font:bold 14px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;background:#f8f8f8;border-color:#fff;padding:12px 16px;}
+.oldweb-bgm #bgmToggle{font:bold 14px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;background:#f8f8f8;border-color:#fff;padding:12px 16px;}
 .oldweb-bgm #bgmToggle:focus-visible,.oldweb-bgm #bgmVolume:focus-visible{outline:3px solid #000;outline-offset:2px;}
 .oldweb-bgm-foot{background:#fff;border-top:2px inset #aaa;min-height:29px;display:flex;align-items:center;gap:8px;padding:4px 10px;box-sizing:border-box;}
 .oldweb-bgm-led{width:9px;height:9px;flex:0 0 9px;border:1px solid #666;background:#777;box-shadow:inset 1px 1px 0 #bbb;}
 .oldweb-bgm.playing .oldweb-bgm-led{background:#00bb32;box-shadow:0 0 4px #12b83e;}
-.oldweb-bgm-status{font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
+.oldweb-bgm-status{font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
 .oldweb-bgm.playing .oldweb-bgm-status{color:#006325;}
 .oldweb-bgm-bars{display:flex;align-items:end;gap:3px;height:16px;margin-left:auto;}
 .oldweb-bgm-bars i{display:block;width:4px;background:#aaa;height:3px;}
@@ -1035,16 +1035,16 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 
 /* PULPFICTION.MID MIX STATION: 1996 desktop jukebox with 4 variants of the SAME song */
-.oldweb-bgm-announce{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:7px;background:#fff;color:#111;padding:6px 9px;border-bottom:1px dotted #777;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.oldweb-bgm-announce{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:7px;background:#fff;color:#111;padding:6px 9px;border-bottom:1px dotted #777;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .oldweb-bgm-announce b{font-size:13px;}
-.oldweb-bgm-announce span{font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#004f1c;}
-.bgm-mode-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px 5px;border-top:2px inset #aaa;background:#efefef;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.oldweb-bgm-announce span{font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#004f1c;}
+.bgm-mode-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px 5px;border-top:2px inset #aaa;background:#efefef;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .bgm-mode-head small{font-size:10px;color:#555;}
 .bgm-modes{padding:5px 10px 12px;background:#efefef;}
-.oldweb-bgm .bgm-mode{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;padding:8px 3px 7px;background:#dedede;border:3px outset #fff;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.oldweb-bgm .bgm-mode>b{align-self:flex-start;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;padding:0 0 0 3px;}
-.oldweb-bgm .bgm-mode span{font:bold 15px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#111;}
-.oldweb-bgm .bgm-mode small{font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;}
+.oldweb-bgm .bgm-mode{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;padding:8px 3px 7px;background:#dedede;border:3px outset #fff;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.oldweb-bgm .bgm-mode>b{align-self:flex-start;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;padding:0 0 0 3px;}
+.oldweb-bgm .bgm-mode span{font:bold 15px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#111;}
+.oldweb-bgm .bgm-mode small{font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;}
 .oldweb-bgm .bgm-mode.selected{background:#111!important;color:#fff!important;border-style:inset;border-color:#777;}
 .oldweb-bgm .bgm-mode.selected b,.oldweb-bgm .bgm-mode.selected span,.oldweb-bgm .bgm-mode.selected small{color:#fff!important;}
 .oldweb-bgm .bgm-mode.selected small{color:#86ff9b!important;}
@@ -1052,7 +1052,7 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 .bgm-lower-row{display:flex;gap:9px;align-items:center;justify-content:space-between;background:#fff;border-top:1px solid #bbb;padding:9px 10px;}
 .oldweb-bgm #bgmSurprise{font-size:10px;padding:7px 8px;border:2px outset #fff;background:#d9d9d9;white-space:nowrap;}
 .bgm-timeline{display:flex;align-items:center;gap:8px;flex:1;justify-content:flex-end;min-width:100px;}
-.bgm-timeline span{font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;}
+.bgm-timeline span{font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;white-space:nowrap;}
 .bgm-timeline input{min-width:55px;width:100%;max-width:210px;accent-color:#111;cursor:pointer;}
 .oldweb-bgm .bgm-mode:focus-visible,.oldweb-bgm #bgmSurprise:focus-visible,.oldweb-bgm #bgmSeek:focus-visible{outline:2px solid #000;outline-offset:3px;}
 @media(max-width:580px){.bgm-modes{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;padding:5px 7px 8px;}.oldweb-bgm .bgm-mode{padding:6px 3px;}.oldweb-bgm .bgm-mode span{font-size:12px;}.bgm-mode-head{padding:7px;font-size:10px;}.bgm-mode-head small{font-size:9px;}.bgm-lower-row{flex-wrap:wrap;padding:7px;}.bgm-timeline{flex:1;min-width:160px;}}
@@ -1060,7 +1060,7 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 /* Mail pigeon: intentionally inline below BGM, not a floating fixed widget. */
 .pigeon-mail-row{justify-content:flex-end;align-items:center;}
-.pigeon-mail-link{max-width:100%;color:#0000ee!important;background:transparent!important;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.pigeon-mail-link{max-width:100%;color:#0000ee!important;background:transparent!important;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .pigeon-mail-link img{display:block;image-rendering:auto;}
 .pigeon-mail-label{white-space:normal;}
 .pigeon-mail-label small{display:block;}
@@ -1092,8 +1092,8 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 }
 /* White backgrounds in the original GIF disappear visually over the cloud wallpaper. */
 .pigeon-mail-link img {width:87px !important;max-width:100%;max-height:103px !important;object-fit:contain;mix-blend-mode:multiply;}
-.pigeon-mail-label {font:bold 10px/1.15 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-align:center !important;color:#0000ee !important;text-decoration:underline;}
-.pigeon-mail-label small {font:8px/1.15 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-align:center !important;color:#555;margin-top:3px; text-decoration:none;}
+.pigeon-mail-label {font:bold 10px/1.15 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-align:center !important;color:#0000ee !important;text-decoration:underline;}
+.pigeon-mail-label small {font:8px/1.15 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-align:center !important;color:#555;margin-top:3px; text-decoration:none;}
  .pigeon-mail-link:hover {background:transparent !important;outline:0 !important;}
 .pigeon-mail-link:focus-visible {background:transparent !important;outline:2px dotted #333;outline-offset:3px;}
 @media(max-width:480px) {
@@ -1104,28 +1104,28 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 }
 
 /* PERSONAL WEB PORTAL — links that unmistakably lead to the owner's other pages. */
-.other-web-heading{margin:14px 0 3px;text-align:right;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#111;text-decoration:underline;}
+.other-web-heading{margin:14px 0 3px;text-align:right;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#111;text-decoration:underline;}
 .other-web-house{margin-top:2px;text-align:right;}
 .other-web-house .gif-asset img{max-width:100px;width:90px;height:auto;}
-.other-web-house .other-web-jump{display:block;margin-top:5px;font:bold 11px/1.45 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee!important;text-decoration:underline;}
+.other-web-house .other-web-jump{display:block;margin-top:5px;font:bold 11px/1.45 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee!important;text-decoration:underline;}
 .other-web-house .other-web-jump:hover{background:#e6e6e6!important;color:#000!important;}
 .www-web-portal{margin:12px auto 5px;text-align:center;line-height:1.7!important;}
-.www-web-portal span{font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
-.www-web-portal a{display:inline-block;padding:7px 12px;border:3px outset #fff;background:#e6e6e6!important;color:#0000ee!important;font:bold 14px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline!important;box-shadow:2px 2px 0 #999;}
+.www-web-portal span{font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
+.www-web-portal a{display:inline-block;padding:7px 12px;border:3px outset #fff;background:#e6e6e6!important;color:#0000ee!important;font:bold 14px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;text-decoration:underline!important;box-shadow:2px 2px 0 #999;}
 .www-web-portal a:hover{background:#eee!important;color:#000!important;}
 .my-other-sites{scroll-margin-top:15px;}
-.my-sites-sub{text-align:center;color:#333;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:0.1px;}
+.my-sites-sub{text-align:center;color:#333;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:0.1px;}
 .my-sites-directory{background:#fff;border:2px solid #555;padding:0;color:#111;}
-.my-sites-bar{display:flex;justify-content:space-between;gap:10px;padding:7px;background:#e5e5e5;border-bottom:2px solid #555;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.my-sites-bar{display:flex;justify-content:space-between;gap:10px;padding:7px;background:#e5e5e5;border-bottom:2px solid #555;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .my-sites-bar span{font-weight:normal;}
-.my-sites-feature{padding:16px 13px 15px;border-bottom:1px dotted #888;font:13px/1.75 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-.my-sites-feature>b{font:bold 18px Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-.my-sites-feature>small{display:block;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;margin-top:6px;}
-.my-sites-placeholder{display:inline-block;margin-top:10px;padding:5px 9px;border:2px outset #fff;background:#eee;color:#666;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.my-sites-future{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px dotted #aaa;padding:9px 13px;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.my-sites-feature{padding:16px 13px 15px;border-bottom:1px dotted #888;font:13px/1.75 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+.my-sites-feature>b{font:bold 18px Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+.my-sites-feature>small{display:block;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;margin-top:6px;}
+.my-sites-placeholder{display:inline-block;margin-top:10px;padding:5px 9px;border:2px outset #fff;background:#eee;color:#666;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.my-sites-future{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px dotted #aaa;padding:9px 13px;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .my-sites-future:last-child{border-bottom:0;}
 .my-sites-future span{color:#666;}
-.my-sites-end{text-align:center;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding-top:10px;color:#333;}
+.my-sites-end{text-align:center;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding-top:10px;color:#333;}
 @media(max-width:480px){.other-web-heading{font-size:9px;}.other-web-house .other-web-jump{font-size:9px;}.www-web-portal a{font-size:11px;padding:6px 5px;}.my-sites-bar{font-size:8px;}.my-sites-feature>b{font-size:15px;}.my-sites-future{font-size:9px;}}
 
 /* Compact early-web outbound link directory — no card UI or yellowed paper. */
@@ -1169,60 +1169,60 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 /* 2026-11-12: quieter, more polished early-web shortcuts */
 .sidebar-shortcuts{margin:6px 2px 17px;padding:0 0 7px;border:1px solid #888;background:#fff;box-shadow:2px 2px 0 #b8b8b8;gap:0}
-.shortcut-heading{margin:0;padding:6px 3px;background:#111;color:#fff;font:bold 9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.5px}
+.shortcut-heading{margin:0;padding:6px 3px;background:#111;color:#fff;font:bold 9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.5px}
 .left .sidebar-shortcut{position:relative;display:grid;grid-template-columns:43px 1fr;grid-template-rows:auto auto;align-items:center;justify-items:start;column-gap:5px;row-gap:0;min-height:68px;padding:7px 3px 7px 4px;border-top:1px dotted #aaa;text-align:left;background:#fff!important;}
-.shortcut-index{grid-column:2;grid-row:1;align-self:end;justify-self:start;margin:0;color:#666;font:8px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.shortcut-index{grid-column:2;grid-row:1;align-self:end;justify-self:start;margin:0;color:#666;font:8px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .sidebar-shortcut .shortcut-image{grid-column:1;grid-row:1 / 3;justify-self:center;max-width:42px;display:flex;align-items:center;justify-content:center;}
 .sidebar-shortcut .shortcut-image img{max-width:41px;max-height:53px;width:auto;object-fit:contain;margin:auto;}
-.sidebar-shortcut .shortcut-at{grid-column:1;grid-row:1 / 3;font:42px/.9 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;justify-self:center;color:#111;}
-.left .sidebar-shortcut .shortcut-label{grid-column:2;grid-row:2;font:bold 10px/1.18 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-align:left;text-decoration:underline!important;color:#0000ee!important;letter-spacing:-.4px;}
+.sidebar-shortcut .shortcut-at{grid-column:1;grid-row:1 / 3;font:42px/.9 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;justify-self:center;color:#111;}
+.left .sidebar-shortcut .shortcut-label{grid-column:2;grid-row:2;font:bold 10px/1.18 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-align:left;text-decoration:underline!important;color:#0000ee!important;letter-spacing:-.4px;}
 .left .sidebar-shortcut:hover,.left .sidebar-shortcut:focus-visible{background:#eaeaea!important;outline:1px dashed #444;outline-offset:-2px;}
-.shortcut-footer{margin:7px 0 0;font:8px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555}
+.shortcut-footer{margin:7px 0 0;font:8px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555}
 @media(max-width:480px){.left .sidebar-shortcut{grid-template-columns:27px 1fr;column-gap:2px;min-height:49px;padding:5px 1px;}.sidebar-shortcut .shortcut-image img{max-width:26px;max-height:35px;}.sidebar-shortcut .shortcut-at{font-size:26px;}.left .sidebar-shortcut .shortcut-label{font-size:8px;}.shortcut-index{font-size:7px}.shortcut-heading{font-size:7px;letter-spacing:0}}
 
 /* DJ booth / McDonald's GIF corner: monochrome HTML tables, actual animations provide the colors. */
-.interest-zone{background:#fff;color:#111;border:3px ridge #888;margin:24px 0 31px;padding:0 0 9px;font-family:"Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;scroll-margin-top:12px;}
-.interest-bar{background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.interest-bar small{font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#ccc;}
-.interest-intro{text-align:center;font:11px/1.6 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:10px 7px;}
-.interest-stamp{font:bold 21px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:1px;text-align:center;margin:10px auto 3px;}
+.interest-zone{background:#fff;color:#111;border:3px ridge #888;margin:24px 0 31px;padding:0 0 9px;font-family:"Courier New","SOYONG HANGUL","Noto Serif KR",monospace;scroll-margin-top:12px;}
+.interest-bar{background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.interest-bar small{font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#ccc;}
+.interest-intro{text-align:center;font:11px/1.6 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:10px 7px;}
+.interest-stamp{font:bold 21px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;letter-spacing:1px;text-align:center;margin:10px auto 3px;}
 .interest-rack{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:10px 16px;padding:12px 6px;border-top:1px dotted #aaa;border-bottom:1px dotted #aaa;margin:6px 8px;}
 .interest-gif{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:112px;min-height:118px;color:#111!important;background:transparent!important;text-align:center;}
 .interest-gif img{max-width:110px;max-height:118px;width:auto;height:auto;object-fit:contain;image-rendering:auto;cursor:zoom-in;}
-.interest-gif small{font:9px/1.4 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
+.interest-gif small{font:9px/1.4 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#333;}
 .interest-gif:nth-child(2n){width:148px;}
 .interest-gif:nth-child(2n) img{max-width:143px;max-height:140px;}
 .interest-gif:nth-child(3n){width:98px;}
 .interest-gif:nth-child(3n) img{max-width:95px;max-height:110px;}
 .interest-gif:hover img{outline:1px dotted #000;outline-offset:3px;}
-.interest-fallback{display:none;font:bold 10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;border:1px dotted #aaa;padding:13px 4px;}
+.interest-fallback{display:none;font:bold 10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;border:1px dotted #aaa;padding:13px 4px;}
 .interest-gif.missing img{display:none;}.interest-gif.missing .interest-fallback{display:block;}
-.interest-footer{text-align:right;margin:6px 11px 0;font:9px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;}
-.interest-notice{margin:7px 10px;text-align:center;font:10px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.interest-footer{text-align:right;margin:6px 11px 0;font:9px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;}
+.interest-notice{margin:7px 10px;text-align:center;font:10px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 @media(max-width:480px){.interest-rack{gap:6px;padding:7px 1px;}.interest-gif,.interest-gif:nth-child(2n),.interest-gif:nth-child(3n){width:44%;min-height:100px;}.interest-gif img,.interest-gif:nth-child(2n) img,.interest-gif:nth-child(3n) img{max-width:100%;max-height:115px;}.interest-bar{font-size:10px;}}
 
 /* Public guestbook: intentionally simple, early-web message board layout. */
 #guestbook{margin:20px 0 28px;scroll-margin-top:14px;}
 #guestbook h3{text-decoration:none;color:#111!important;text-align:left;}
 #guestbook h3::before,#guestbook h3::after{content:none;}
-.guestbook-intro{font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;border-bottom:1px dotted #999;padding-bottom:8px;margin-bottom:12px}
+.guestbook-intro{font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;border-bottom:1px dotted #999;padding-bottom:8px;margin-bottom:12px}
 .guestbook-form{display:grid;gap:9px;max-width:600px;margin:5px auto 12px;padding:11px;background:#f3f3f3;border:2px inset #ccc;}
-.guestbook-form label{font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;display:block;}
-.guestbook-form input,.guestbook-form textarea{display:block;box-sizing:border-box;margin-top:4px;width:100%;background:#fff;border:2px inset #aaa;padding:6px;color:#111;font:13px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.guestbook-form label{font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;display:block;}
+.guestbook-form input,.guestbook-form textarea{display:block;box-sizing:border-box;margin-top:4px;width:100%;background:#fff;border:2px inset #aaa;padding:6px;color:#111;font:13px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .guestbook-form textarea{min-height:79px;resize:vertical;}
 .guestbook-controls{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;}
-#guestbookStatus{font:10px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;}
+#guestbookStatus{font:10px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;}
 #guestbook .guestbook-submit{color:#111;}
 #visitorNotes{width:auto;margin:8px 0 0;background:#fff;border:2px inset #bbb;text-align:left;max-height:380px;overflow:auto;}
-#visitorNotes .entry{font:12px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:8px 9px;border-bottom:1px dotted #aaa;white-space:pre-wrap;overflow-wrap:anywhere;}
-#visitorNotes .entry b{color:#000!important;}.guestbook-count{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;text-align:right;color:#555;margin:11px 2px 2px;}
-.guestbook-unconfigured{font:11px/1.6 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;text-align:center;padding:12px 4px;}
+#visitorNotes .entry{font:12px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:8px 9px;border-bottom:1px dotted #aaa;white-space:pre-wrap;overflow-wrap:anywhere;}
+#visitorNotes .entry b{color:#000!important;}.guestbook-count{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;text-align:right;color:#555;margin:11px 2px 2px;}
+.guestbook-unconfigured{font:11px/1.6 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;text-align:center;padding:12px 4px;}
 
 /* Late-1990s personal-site closing credits. */
-.soyong-credits{background:#fff;border-top:3px double #111;border-bottom:1px solid #aaa;margin:14px 0 6px;padding:13px 8px;text-align:center;color:#111;font:11px/1.7 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-.soyong-credits strong{display:block;font:bold 14px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin-bottom:3px;letter-spacing:.2px}
+.soyong-credits{background:#fff;border-top:3px double #111;border-bottom:1px solid #aaa;margin:14px 0 6px;padding:13px 8px;text-align:center;color:#111;font:11px/1.7 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+.soyong-credits strong{display:block;font:bold 14px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin-bottom:3px;letter-spacing:.2px}
 .soyong-credits p{margin:2px 0;color:#333!important;}
-.soyong-credits .long-live{display:block;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.2px;margin:9px auto 0;}
+.soyong-credits .long-live{display:block;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.2px;margin:9px auto 0;}
 
 /* Keep right-margin GIFs at naturally staggered heights without overlapping. */
 .gif-wilderness .wild{box-sizing:border-box;transform-origin:center center;}
@@ -1230,21 +1230,21 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 /* MINI MIXTAPE: clear song navigation, old-web utility styling, no yellow or lavender */
 .bgm-playlist{background:#fff;padding:10px 12px 9px;border-bottom:3px double #555;color:#111;}
-.bgm-playlist-head{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px;font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+.bgm-playlist-head{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px;font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .bgm-playlist-head strong{font-size:15px;letter-spacing:-.4px;}
 .bgm-playlist-head>span{font-size:10px;color:#666;}
 .bgm-song-select{display:flex;align-items:stretch;gap:6px;min-height:55px;}
-.bgm-arrow{min-width:42px;border:3px outset #fff;background:#d4d4d4;color:#000;font:bold 23px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;cursor:pointer;}
+.bgm-arrow{min-width:42px;border:3px outset #fff;background:#d4d4d4;color:#000;font:bold 23px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;cursor:pointer;}
 .bgm-song-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex:1;gap:5px;min-width:0;}
-.bgm-song{font:bold 13px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.4;word-break:break-word;background:#f0f0f0;color:#000;border:3px outset #fff;cursor:pointer;padding:6px 4px;}
+.bgm-song{font:bold 13px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;line-height:1.4;word-break:break-word;background:#f0f0f0;color:#000;border:3px outset #fff;cursor:pointer;padding:6px 4px;}
 .bgm-song b{font-size:10px;color:#555;margin-right:2px;}
 .bgm-song.selected{border:3px inset #666;background:#101010;color:#fff;}
 .bgm-song.selected b{color:#ddd;}
 .bgm-song:hover:not(.selected),.bgm-arrow:hover{background:#e2e2e2;}
 .bgm-file-row{margin-top:8px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
-.bgm-file-row label{cursor:pointer;font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;border:2px outset #eee;background:#ddd;padding:5px 7px;color:#111;}
+.bgm-file-row label{cursor:pointer;font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;border:2px outset #eee;background:#ddd;padding:5px 7px;color:#111;}
 .bgm-file-row input{position:absolute;left:-10000px;width:1px;height:1px;opacity:0;}
-.bgm-file-row small{font:10px/1.3 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;flex:1;min-width:160px;}
+.bgm-file-row small{font:10px/1.3 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;flex:1;min-width:160px;}
 .bgm-modes{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;}
 .bgm-modes .bgm-mode{min-width:0;}
 .bgm-dragging{outline:4px dashed #111;outline-offset:3px;}
@@ -1256,34 +1256,34 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 
 /* SOYONG NOVEMBER REVISION — readable guestbook, lively DJ booth, large Sue GIF */
 #guestbook{max-width:100%;border:4px double #333;padding:20px 22px 18px;margin-top:28px;background:#fff;box-shadow:3px 3px 0 #eee;}
-#guestbook h3{font:bold clamp(25px,2.2vw,34px)/1.15 Georgia,"Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:0 0 11px;letter-spacing:-.6px;}
-#guestbook .guestbook-intro{font:14px/1.65 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#222;margin:0 0 18px;padding:0 0 15px;border-bottom:2px dotted #aaa;}
-#guestbook .guestbook-intro small{font:11px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;}
+#guestbook h3{font:bold clamp(25px,2.2vw,34px)/1.15 Georgia,"Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:0 0 11px;letter-spacing:-.6px;}
+#guestbook .guestbook-intro{font:14px/1.65 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#222;margin:0 0 18px;padding:0 0 15px;border-bottom:2px dotted #aaa;}
+#guestbook .guestbook-intro small{font:11px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;}
 #guestbook .guestbook-form{max-width:760px;margin:0 auto 23px;gap:16px;padding:18px 22px 19px;background:#f2f2f2;border:2px outset #d1d1d1;}
-#guestbook .guestbook-form label{font:bold 15px/1.4 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.05px;color:#111;}
-#guestbook .guestbook-form input:not([name="website"]),#guestbook .guestbook-form textarea{margin-top:7px;font:16px/1.45 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;min-height:46px;border:2px inset #777;padding:10px 12px;border-radius:0;background:#fff;color:#111;}
+#guestbook .guestbook-form label{font:bold 15px/1.4 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;letter-spacing:.05px;color:#111;}
+#guestbook .guestbook-form input:not([name="website"]),#guestbook .guestbook-form textarea{margin-top:7px;font:16px/1.45 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;min-height:46px;border:2px inset #777;padding:10px 12px;border-radius:0;background:#fff;color:#111;}
 #guestbook .guestbook-form input::placeholder,#guestbook .guestbook-form textarea::placeholder{color:#8a8a8a;opacity:1;}
 #guestbook .guestbook-form textarea{min-height:112px;}
 #guestbook .guestbook-form :is(input,textarea):focus{outline:2px solid #0000ee;outline-offset:2px;}
-#guestbook .guestbook-submit{font:bold 17px/1.3 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;padding:12px 22px;background:#dedede;border:3px outset #fafafa;cursor:pointer;white-space:normal;}
+#guestbook .guestbook-submit{font:bold 17px/1.3 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;padding:12px 22px;background:#dedede;border:3px outset #fafafa;cursor:pointer;white-space:normal;}
 #guestbook .guestbook-submit:hover{background:#eee;}
 #guestbook .guestbook-submit:active{border-style:inset;}
-#guestbook #guestbookStatus{font:11px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;max-width:320px;}
-#guestbook .guestbook-board-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:6px 0 0;padding:8px 10px;background:#e8e8e8;border:2px ridge #a8a8a8;font:bold 14px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-#guestbook .guestbook-count{font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;margin:0;text-align:right;white-space:nowrap;}
+#guestbook #guestbookStatus{font:11px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;max-width:320px;}
+#guestbook .guestbook-board-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:6px 0 0;padding:8px 10px;background:#e8e8e8;border:2px ridge #a8a8a8;font:bold 14px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+#guestbook .guestbook-count{font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;margin:0;text-align:right;white-space:nowrap;}
 #guestbook #visitorNotes{border:2px inset #888;margin:0 0 16px;min-height:76px;max-height:380px;}
-#guestbook .guestbook-unconfigured{padding:18px 10px;display:grid;gap:8px;font:13px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+#guestbook .guestbook-unconfigured{padding:18px 10px;display:grid;gap:8px;font:13px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 #guestbook .guestbook-unconfigured b{font-size:15px;}
 #guestbook .guestbook-unconfigured small{font-size:11px;color:#666;}
-#guestbook #visitorNotes .entry{padding:14px 16px;font:13px/1.6 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-#guestbook #guestRefresh{font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+#guestbook #visitorNotes .entry{padding:14px 16px;font:13px/1.6 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+#guestbook #guestRefresh{font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 .dj-booth-sign{display:flex;align-items:center;justify-content:center;text-align:center;gap:20px;padding:17px 12px 13px;border-bottom:1px dotted #999;background:#fff;}
-.dj-booth-disc{font:48px/1 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111;transform:rotate(-15deg);}
+.dj-booth-disc{font:48px/1 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#111;transform:rotate(-15deg);}
 .dj-booth-disc:last-child{transform:rotate(15deg);}
-#dj-zone .interest-stamp{font:bold clamp(20px,2.5vw,30px)/1.15 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:0 auto 7px;letter-spacing:0;}
-#dj-zone .interest-intro{font:14px/1.55 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:0 auto 9px;}
-#dj-zone .dj-listen-link{display:inline-block;font:bold 12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;padding:4px 9px;border:1px dashed #999;}
-#dj-zone .dj-topline{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 14px 4px;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
+#dj-zone .interest-stamp{font:bold clamp(20px,2.5vw,30px)/1.15 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:0 auto 7px;letter-spacing:0;}
+#dj-zone .interest-intro{font:14px/1.55 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;margin:0 auto 9px;}
+#dj-zone .dj-listen-link{display:inline-block;font:bold 12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;padding:4px 9px;border:1px dashed #999;}
+#dj-zone .dj-topline{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 14px 4px;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
 #dj-zone .dj-live-dot{color:#a00;}
 #dj-zone .interest-rack{display:flex;justify-content:center;gap:19px 24px;margin:5px 9px 8px;padding:17px 9px;border-top:3px double #777;border-bottom:3px double #777;background:#fff;}
 #dj-zone .interest-gif{min-height:172px;width:155px!important;padding:8px 6px;border:1px dotted #aaa;background:#f9f9f9!important;box-sizing:border-box;}
@@ -1291,19 +1291,19 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 #dj-zone .interest-gif:nth-child(2n){transform:rotate(2deg);}
 #dj-zone .interest-gif:nth-child(3n){transform:rotate(-2deg);}
 #dj-zone .interest-gif:hover{transform:rotate(0) scale(1.035);background:#eee!important;}
-#dj-zone .interest-gif small{font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;}
-#dj-zone .interest-footer{font:bold 11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;margin:10px 16px 4px;}
+#dj-zone .interest-gif small{font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;}
+#dj-zone .interest-footer{font:bold 11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;margin:10px 16px 4px;}
 #sue-zone .sue-table{background:#fff;border:3px double #777;}
 #sue-zone .sue-name-cell{width:39%;vertical-align:middle;padding:16px 10px;}
 #sue-zone .sue-story-cell{vertical-align:top;padding:16px 18px 18px;text-align:center;}
-#sue-zone .sue-hero-word{font:bold clamp(36px,5vw,65px)/1 Georgia,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-align:center;margin:15px auto 12px;}
+#sue-zone .sue-hero-word{font:bold clamp(36px,5vw,65px)/1 Georgia,"SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-align:center;margin:15px auto 12px;}
 #sue-zone .sue-featured-gif{display:flex;align-items:center;justify-content:center;min-height:160px;margin:14px auto 12px;max-width:100%;}
 #sue-zone .sue-featured-gif .gif-asset{display:flex;align-items:center;justify-content:center;max-width:100%;}
 #sue-zone .sue-featured-gif img{width:auto;height:auto;max-width:min(100%,310px);max-height:285px;object-fit:contain;image-rendering:auto;}
-#sue-zone .sue-featured-gif .gif-fallback{max-width:260px;font:12px/1.5 "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;border:1px dashed #999;padding:18px;}
+#sue-zone .sue-featured-gif .gif-fallback{max-width:260px;font:12px/1.5 "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#444;border:1px dashed #999;padding:18px;}
 #sue-zone .sue-little-sticker{align-items:center;margin:14px auto 2px;}
-#sue-zone .sue-little-sticker small{font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#666;}
-.www-directory .directory-symbol{display:inline-block;min-width:90px;font:bold 39px/1 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-decoration:none;padding:10px;}
+#sue-zone .sue-little-sticker small{font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#666;}
+.www-directory .directory-symbol{display:inline-block;min-width:90px;font:bold 39px/1 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#111;text-decoration:none;padding:10px;}
 .www-directory tr td:nth-child(2){padding:8px 10px;}
 .www-directory tr td:nth-child(2) small{display:block;margin-top:5px;color:#444;}
 .www-littlelinks{line-height:2!important;padding:0 8px;}
@@ -1313,24 +1313,24 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 /* Compact, coordinated 1990s webmaster profile */
 #about{padding:16px 8px 13px;background:#fff;}
 #about .about-profile{position:relative;max-width:740px;margin:0 auto;padding:8px 12px 18px;text-align:center;}
-#about .about-profile h2{color:#111;font:bold clamp(22px,2.5vw,30px) "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;margin:1px 0 14px;letter-spacing:0;}
+#about .about-profile h2{color:#111;font:bold clamp(22px,2.5vw,30px) "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;margin:1px 0 14px;letter-spacing:0;}
 #about .about-profile-inner{width:min(100%,630px);margin:0 auto;display:grid;grid-template-columns:210px 1fr;align-items:center;gap:28px;text-align:left;}
 #about .about-photo-col{text-align:center;position:relative;}
-#about .about-profile-label{display:block;font:11px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;letter-spacing:.06em;margin-bottom:3px;}
+#about .about-profile-label{display:block;font:11px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#555;letter-spacing:.06em;margin-bottom:3px;}
 #about .about-photo-frame{width:198px;height:187px;margin:0 auto;display:grid;place-items:center;}
 #about .about-frame-asset{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
 #about .about-frame-asset img{width:192px!important;height:181px!important;max-width:none!important;max-height:none!important;object-fit:fill!important;image-rendering:auto;}
-#about #portrait{margin:0;color:#000!important;place-items:center;font:54px/1 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+#about #portrait{margin:0;color:#000!important;place-items:center;font:54px/1 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 #about #portrait:hover,#about #portrait:focus-visible{outline:none!important;background:transparent!important;box-shadow:none!important;}
-#about .about-click-note{display:block;font:10px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;margin-top:1px;}
-#about .about-hello{font:bold clamp(20px,2.4vw,27px)/1.2 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#111;margin-bottom:12px;}
+#about .about-click-note{display:block;font:10px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#777;margin-top:1px;}
+#about .about-hello{font:bold clamp(20px,2.4vw,27px)/1.2 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;color:#111;margin-bottom:12px;}
 #about .about-bio-col p{margin:0 0 13px;color:#111;}
-#about .about-home-line{font:17px/1.42 "Times New Roman",Times,"MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-#about .about-home-line span{display:block;font:16px/1.45 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-#about .about-welcome{font:15px/1.5 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-#about .about-email-line{font:16px/1.55 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
-#about .about-email-line a{font:bold 17px "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;color:#0000ee;text-decoration:underline;}
-#about .about-instagram{font:12px "Courier New","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;display:inline-block;margin-top:1px;}
+#about .about-home-line{font:17px/1.42 "Times New Roman",Times,"SOYONG HANGUL","Noto Serif KR",serif;}
+#about .about-home-line span{display:block;font:16px/1.45 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+#about .about-welcome{font:15px/1.5 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+#about .about-email-line{font:16px/1.55 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
+#about .about-email-line a{font:bold 17px "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;color:#0000ee;text-decoration:underline;}
+#about .about-instagram{font:12px "Courier New","SOYONG HANGUL","Noto Serif KR",monospace;color:#0000ee;text-decoration:underline;display:inline-block;margin-top:1px;}
 #about .about-wish{position:absolute!important;float:none!important;top:33px;right:0;width:76px;margin:0!important;display:block;}
 #about .about-wish img{max-width:76px!important;max-height:95px!important;}
 #sue-zone .sue-story-cell .sue-featured-gif{min-height:200px;margin-top:22px;}
@@ -1511,7 +1511,7 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 .www-topgifs .matrix-entry small{font:bold 10px/1.25 "Courier New",monospace;color:#0000ee;text-decoration:underline;white-space:nowrap;}
 .bgm-gif-header{display:flex!important;justify-content:center!important;align-items:center!important;min-height:34px;background:#000!important;border-bottom:2px ridge #888;padding:2px 6px!important;}
 .bgm-gif-header img{display:block;max-width:min(220px,96%);max-height:32px;width:60px;height:30px;object-fit:contain;image-rendering:pixelated;}
-.early-web-tribute{scroll-margin-top:20px;max-width:790px;margin:34px auto 25px;padding:15px 20px;background:#fff;color:#161616;border:3px double #888;box-shadow:3px 3px 0 #bbb;font:13px/1.65 "Times New Roman","MOBILE RETRO HANGUL","SOYONG HANGUL","Noto Serif KR",serif;}
+.early-web-tribute{scroll-margin-top:20px;max-width:790px;margin:34px auto 25px;padding:15px 20px;background:#fff;color:#161616;border:3px double #888;box-shadow:3px 3px 0 #bbb;font:13px/1.65 "Times New Roman","SOYONG HANGUL","Noto Serif KR",serif;}
 .early-web-tribute .geo-heading{font:bold 11px "Courier New",monospace;color:#222;background:#eaeaea;border:2px outset #bbb;padding:5px 8px;margin-bottom:16px;text-align:center;}
 .early-web-tribute .geo-hero{display:flex;gap:18px;align-items:center;justify-content:center;padding:13px 6px 17px;border-bottom:1px dotted #777;}
 .early-web-tribute .geo-hero img{display:block;width:125px;max-width:100%;height:auto;}
@@ -1532,24 +1532,132 @@ h2,.section-title,.section:not(.zone-section) .section-title {color:#000!importa
 #popupDesktop .window-body{max-height:calc(100dvh - 64px);overflow:auto;}
 #popupDesktop .window-bar{user-select:none;}
 
+/* MOBILE VIEW: a full-width old-web homepage, not a squeezed desktop sidebar.
+   Desktop layout and all existing interactive features are unchanged. */
+@media screen and (max-width:600px) {
+  html { background-size:150px 150px; }
+  .container {
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 auto 25px !important;
+    box-sizing:border-box;
+  }
+  .website,
+  .website > tbody,
+  .website > tbody > tr {
+    display:block !important;
+    width:100% !important;
+    box-sizing:border-box;
+  }
+  .website > tbody > tr > td {
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    box-sizing:border-box;
+  }
+  .website .left {
+    padding:6px 9px 8px !important;
+    border-right:0 !important;
+    border-bottom:2px ridge #aaa !important;
+    text-align:left;
+  }
+  .website .main {
+    padding:10px 9px 14px !important;
+    border-left:0 !important;
+    min-width:0;
+  }
+  /* Outbound GIF links are a compact, old-fashioned three-column button strip. */
+  .left .sidebar-shortcuts {
+    display:grid !important;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    margin:2px 0 8px;
+    padding:0 0 3px;
+    box-shadow:none;
+  }
+  .sidebar-shortcuts .shortcut-heading,
+  .sidebar-shortcuts .shortcut-footer { grid-column:1 / -1; }
+  .left .sidebar-shortcut {
+    display:flex !important;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:3px;
+    min-height:76px;
+    padding:5px 2px !important;
+    border-top:1px dotted #999;
+    text-align:center;
+  }
+  .left .sidebar-shortcut + .sidebar-shortcut { border-left:1px dotted #bbb; }
+  .sidebar-shortcut .shortcut-image {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:35px;
+    max-width:100%;
+  }
+  .sidebar-shortcut .shortcut-image img {
+    max-width:55px !important;
+    max-height:35px !important;
+  }
+  .sidebar-shortcuts .shortcut-index {
+    font-size:8px;
+    line-height:1.1;
+    text-align:center;
+  }
+  .left .sidebar-shortcut .shortcut-label {
+    font-size:10px !important;
+    line-height:1.1;
+    text-align:center;
+    letter-spacing:0;
+  }
+  .left .sidebar-shortcut .shortcut-label small { font-size:8px; }
+  /* All menu links remain available; they're allowed to wrap, rather than
+     consuming the entire left edge of the actual content. */
+  .left .navgroup {
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:11px;
+    row-gap:4px;
+    margin:8px 0;
+    padding:6px 0;
+  }
+  .left .navgroup a {
+    display:inline-block;
+    width:auto;
+    margin:0;
+    padding:2px 0;
+    font:10px/1.35 "Courier New",monospace;
+    white-space:nowrap;
+  }
+  /* Ornamental sidebar GIFs stay on desktop; keep the actual link directory. */
+  .left > .smiley,
+  .left > p[style],
+  .left > .side-note,
+  .left > .gif-clockrack,
+  .left > .gif-side-trinket { display:none !important; }
+  .www-home, #about, #guestbook, #turtleClub,
+  .zone-section, .interest-zone { max-width:100%; box-sizing:border-box; }
+  .www-home .www-directory { width:100%; }
+  .www-home .www-directory td:first-child:not([colspan]) { width:85px; }
+  #guestbook .guestbook-form input,
+  #guestbook .guestbook-form textarea { max-width:100%;box-sizing:border-box; }
+}
 
-/* Mobile-only Hangul bitmap type. Unicode-range prevents changes to English.
-   Galmuri11 (SIL Open Font License 1.1) is loaded on demand from CDN. */
-@media screen and (max-width: 600px) {
+/* Mobile Hangul: use the device's ordinary Korean UI font.
+   Latin text retains all existing site typefaces. */
+@media screen and (max-width:600px) {
   @font-face {
-    font-family: "MOBILE RETRO HANGUL";
-    src: url("https://cdn.jsdelivr.net/gh/fonts-archive/Galmuri11/Galmuri11-Regular.woff2") format("woff2");
+    font-family: "SOYONG HANGUL";
+    src: local("Apple SD Gothic Neo"), local("Noto Sans CJK KR"),
+         local("Noto Sans KR"), local("Malgun Gothic");
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
-    unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+A960-A97F, U+D7B0-D7FF;
+    unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF,
+                   U+A960-A97F, U+D7B0-D7FF;
   }
-  @font-face {
-    font-family: "MOBILE RETRO HANGUL";
-    src: url("https://cdn.jsdelivr.net/gh/fonts-archive/Galmuri11/Galmuri11-Bold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: 700 900;
-    font-display: swap;
-    unicode-range: U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+A960-A97F, U+D7B0-D7FF;
+  .hangul-serif {
+    font-family: "SOYONG HANGUL", system-ui, sans-serif !important;
+    font-weight: inherit !important;
+    font-synthesis: auto;
   }
 }
